@@ -1,0 +1,4189 @@
+// Rune of the Watcher
+[AIsm]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIsm\AIsmTarget.mdl
+Targetattach=origin
+
+[AInm]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIsm\AIsmTarget.mdl
+Targetattach=origin
+
+// One time permanent agility gain ability, usually on a tome
+[AIam]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIam\AIamTarget.mdl
+Targetattach=origin
+
+[AIgm]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIam\AIamTarget.mdl
+Targetattach=origin
+
+// short duration single target speed bonus
+[AIat]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AIt9]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AItc]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AItf]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// item cyclone
+[AIcy]
+Art=ReplaceableTextures\CommandButtons\BTNCyclone.blp
+order=cyclone
+
+// continuous Defense Bonus
+[AIde]
+
+[AId1]
+
+[AId2]
+
+[AId3]
+
+[AId4]
+
+[AId5]
+
+[AId8]
+
+[AId7]
+
+[AId0]
+
+// area of effect damage of destructables
+[AIem]
+Art=ReplaceableTextures\CommandButtons\BTNTomeBrown.blp
+Casterart=Abilities\Spells\Items\AIem\AIemTarget.mdl
+Casterattach=origin
+
+[AIe2]
+Art=ReplaceableTextures\CommandButtons\BTNManual3.blp
+Casterart=Abilities\Spells\Items\AIem\AIemTarget.mdl
+Casterattach=origin
+
+// Cloud of Fog
+[AIfn]
+Art=ReplaceableTextures\CommandButtons\BTNNightElfCaptureFlag.blp
+Targetart=Objects\InventoryItems\NightElfCaptureFlag\NightElfCaptureFlag.mdl
+Targetattach=hand,right
+
+// orc flag
+[AIlm]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// One time permanent intelligence gain, usually on a Tome
+[AIim]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+[AItm]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// One time permanent agi/int/str gain
+[AIxm]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Targetart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Targetattach=origin
+
+// single shot one target healing (potions, typically)
+[AIhe]
+Targetart=Abilities\Spells\Items\AIhe\AIheTarget.mdl
+Targetattach=origin
+
+// single shot group area effect healing (scrolls, typically)
+[AIha]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfTownPortal.blp
+Targetart=Abilities\Spells\Items\AIhe\AIheTarget.mdl
+Targetattach=origin
+
+[APh2]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfTownPortal.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+Effectsound=PowerupSound
+CasterArt=Abilities\Spells\Items\AIre\AIreTarget.mdl
+
+// single shot group area effect healing (powerup, greater)
+[AIvi]
+Targetart=Abilities\Spells\Items\AIvi\AIviTarget.mdl
+Targetattach=chest
+
+// continuous invisibility (ring)
+[AIpi]
+
+// short duration single target invulnerability (potion)
+// brings up the invulnerability buff from CommonAbility
+
+[AIma]
+Targetart=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Targetattach=origin
+
+// single shot group area effect mana regain (scrolls, typically)
+[AImr]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfProtection.blp
+Targetart=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Targetattach=origin
+
+// single shot group area effect mana regain (rune)
+[AIre]
+Art=ReplaceableTextures\CommandButtons\BTNPotionRed.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+
+// single shot group area effect life/mana restore (scroll)
+[AIra]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfHealing.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+
+// single shot group area effect life/mana restore (rune)
+[Bdef]
+Spelldetail=1
+Buffart=ReplaceableTextures\CommandButtons\BTNScroll.blp
+Targetart=Abilities\Spells\Items\AIda\AIdaTarget.mdl
+Targetattach=overhead
+
+// area of effect detection (crystal ball)
+[AItb]
+Art=ReplaceableTextures\CommandButtons\BTNDustOfAppearance.blp
+Casterart=Abilities\Spells\Items\AItb\AItbTarget.mdl
+
+[Bdet]
+Buffart=ReplaceableTextures\CommandButtons\BTNDustOfAppearance.blp
+Targetart=
+
+// continuous Mana regeneration (ring)
+[AIrm]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+[AIfi]
+Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
+Missilespeed=900
+MissileHoming=1
+
+// Illusion generator
+[AIil]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+Targetart=Abilities\Spells\Items\AIil\AIilTarget.mdl
+Targetattach=origin
+
+[BIil]
+Buffart=ReplaceableTextures\CommandButtons\BTNWand.blp
+Specialart=Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+
+// Dispel effect (powerup)
+[AIfb]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfFire.blp
+Missileart=Abilities\Weapons\FireBallMissile\FireBallMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\AIfb\AIfbTarget.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\AIfb\AIfbSpecialArt.mdl
+Specialattach=chest
+
+// Hero attacks get lightning damage bonus, persistent, Orb of Lightning
+[AIll]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=Abilities\Weapons\FarseerMissile\FarseerMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\AIlb\AIlbTarget.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\AIlb\AIlbSpecialArt.mdl
+Specialattach=chest
+
+// Hero attacks get lightning damage bonus, persistent, Orb of Lightning
+[AIob]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfFrost.blp
+Missileart=Abilities\Weapons\LichMissile\LichMissile.mdl
+Targetart=Abilities\Spells\Items\AIob\AIobTarget.mdl
+Missilehoming=1
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\AIob\AIobSpecialArt.mdl
+Specialattach=chest
+
+// Hero attacks get poison damage bonus, persistent, Orb of Venom
+[AIpb]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfVenom.blp
+Missileart=Abilities\Spells\Items\OrbVenom\OrbVenomMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbVenom\OrbVenom.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbVenom\OrbVenomSpecialArt.mdl
+Specialattach=chest
+
+// Hero attacks get corruption damage bonus, persistent, Orb of Corruption
+[AIcb]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+[BIcb]
+Buffart=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+
+// Hero attacks get defilement/BA damage bonus, persistent, Orb of Defilement
+[AIto]
+
+// magical acorn (tree restorer)
+[AIga]
+Effectart=Abilities\Spells\NightElf\NatureTouch\NatureTouchTarget.mdl
+
+// reincarnation (ankh)
+[AIrc]
+Art=ReplaceableTextures\CommandButtons\BTNAnkh.blp
+Effectart=Abilities\Spells\Orc\Reincarnation\ReincarnationTarget.mdl
+
+// recall (amulet)
+[AIte]
+Casterart=Abilities\Spells\Human\MassTeleport\MassTeleportCaster.mdl
+Targetart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+Specialart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+// Shouldn't show art at targeted coordinate, so don't use Effectart.
+Areaeffectart=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl
+
+// town portal (scroll)
+[AItp]
+Art=ReplaceableTextures\CommandButtons\BTNScrollUber.blp
+Casterart=Abilities\Spells\Human\MassTeleport\MassTeleportCaster.mdl
+Targetart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+Specialart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+// Shouldn't show art at targeted coordinate, so don't use Effectart.
+Areaeffectart=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl
+
+// scepter of mastery, command ability
+[AIfd]
+Art=ReplaceableTextures\CommandButtons\BTNRedDragon.blp
+Targetart=Abilities\Spells\Orc\FeralSpirit\feralspirittarget.mdl
+
+[BFig]
+Effectart=Abilities\Spells\Orc\FeralSpirit\feralspiritdone.mdl
+
+// furbolg
+[AIff]
+Art=ReplaceableTextures\CommandButtons\BTNFurbolg.blp
+Targetart=Abilities\Spells\Orc\FeralSpirit\feralspirittarget.mdl
+
+// rock golem
+[AIfr]
+Art=ReplaceableTextures\CommandButtons\BTNRockGolem.blp
+Targetart=Abilities\Spells\Orc\FeralSpirit\feralspirittarget.mdl
+
+// doom guard
+[AIfu]
+Art=ReplaceableTextures\CommandButtons\BTNDoomGuard.blp
+Targetart=Abilities\Spells\Orc\FeralSpirit\feralspirittarget.mdl
+
+// felhound
+[AIfh]
+Art=ReplaceableTextures\CommandButtons\BTNFelHound.blp
+Targetart=Abilities\Spells\Orc\FeralSpirit\feralspirittarget.mdl
+
+// skeleton
+[AIfs]
+Art=ReplaceableTextures\CommandButtons\BTNSkeletonWarrior.blp
+Targetart=Abilities\Spells\Undead\RaiseSkeletonWarrior\RaiseSkeleton.mdl
+
+// Frost Revenant
+[AImn]
+Casterart=
+
+// temporary max mana bonus
+[AImm]
+
+[AImb]
+
+[AImz]
+
+[AImv]
+
+[AIbm]
+
+[AI2m]
+
+// temporary attack speed increase
+[AIas]
+
+[AIsx]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+//improved attack speed
+[AIs2]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// vampiric life steal ability
+[AIva]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+// target art played on hero carrying item
+Targetart=
+// special art played on hero when ability fires
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// cloak of flames
+[AIcf]
+Art=ReplaceableTextures\CommandButtons\BTNCloakOfFlames.blp
+
+// Cloak of flames immolation buff
+[BIcf]
+Buffart=ReplaceableTextures\CommandButtons\BTNCloakOfFlames.blp
+Targetart=Abilities\Spells\NightElf\Immolation\ImmolationTarget.mdl
+Specialart=Abilities\Spells\NightElf\Immolation\ImmolationDamage.mdl
+Specialattach=head
+
+// regen
+[Arel]
+Art=ReplaceableTextures\CommandButtons\BTNRingSkull.blp
+
+// regen lesser
+[Arll]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+[AIs2]
+Art=ReplaceableTextures\CommandButtons\BTNGauntletsOfOgrePower.blp
+
+[AIs6]
+Art=ReplaceableTextures\CommandButtons\BTNBelt.blp
+
+[AIa6]
+Art=ReplaceableTextures\CommandButtons\BTNBoots.blp
+
+[AIaz]
+
+[AIms]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+[AIi6]
+Art=ReplaceableTextures\CommandButtons\BTNRobeOfTheMagi.blp
+
+[AIx2]
+Art=ReplaceableTextures\CommandButtons\BTNCirclet.blp
+
+[AIx5]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+[AIh2]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreen.blp
+Targetart=Abilities\Spells\Items\AIhe\AIheTarget.mdl
+Targetattach=origin
+
+// item healing wards
+[AIsw]
+Art=ReplaceableTextures\CommandButtons\BTNSentryWard.blp
+Order=evileye
+
+[AIm1]
+Art=ReplaceableTextures\CommandButtons\BTNPotionBlueSmall.blp
+Casterart=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Casterattach=origin
+
+[AIm2]
+Art=ReplaceableTextures\CommandButtons\BTNPotionBlueBig.blp
+Casterart=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Casterattach=origin
+
+[AIls]
+Art=ReplaceableTextures\CommandButtons\BTNLightningShield.blp
+Order=lightningshield
+
+// item roar
+[AIrr]
+Art=ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+Casterart=Abilities\Spells\NightElf\BattleRoar\RoarCaster.mdl
+Order=roar
+
+// item evasion
+[AIev]
+Art=ReplaceableTextures\CommandButtons\BTNEvasion.blp
+
+// item magic immunity
+
+[AIa2]
+Art=ReplaceableTextures\CommandButtons\BTNSlippersOfAgility.blp
+
+[AId2]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+[AId3]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+[AId4]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+[AIl2]
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt1.blp
+
+[AIi2]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+
+[AIcd]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+
+[AIrc]
+Art=ReplaceableTextures\CommandButtons\BTNReincarnation.blp
+Effectart=Abilities\Spells\Orc\Reincarnation\ReincarnationTarget.mdl
+
+[AIaa]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// One time permanent life gain
+[AImi]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+[AImh]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+[AIa1]
+Art=ReplaceableTextures\CommandButtons\BTNRingPurple.blp
+
+[AIx1]
+Art=ReplaceableTextures\CommandButtons\BTNGoldRing.blp
+
+[AIfc]
+Art=ReplaceableTextures\CommandButtons\BTNRavenForm.blp
+
+// Brilliance Aura (Item)
+[AIba]
+Art=ReplaceableTextures\CommandButtons\BTNBrilliance.blp
+Targetart=Abilities\Spells\Human\Brilliance\Brilliance.mdl
+Targetattach=origin
+
+// Devotion Aura (Item)
+[AIcd]
+Art=ReplaceableTextures\PassiveButtons\PASBTNGnollCommandAura.blp
+Targetart=Abilities\Spells\Orc\WarDrums\DrumsCasterHeal.mdl
+Targetattach=origin
+
+// Trueshot Aura (Item)
+[AIar]
+Art=ReplaceableTextures\CommandButtons\BTNTrueShot.blp
+Targetart=Abilities\Spells\NightElf\TrueshotAura\TrueshotAura.mdl
+Targetattach=origin
+
+// Endurance Aura (Item)
+[AIau]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyAura.blp
+Targetart=Abilities\Spells\Undead\UnholyAura\UnholyAura.mdl
+Targetattach=origin
+
+// Vampiric Aura (Item)
+[AIav]
+Art=ReplaceableTextures\CommandButtons\BTNVampiricAura.blp
+Targetart=Abilities\Spells\Undead\VampiricAura\VampiricAura.mdl
+Targetattach=origin
+
+// Healing Salve
+
+[AIpl]
+Art=ReplaceableTextures\CommandButtons\BTNMoonStone.blp
+Casterart=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Casterattach=origin
+Buttonpos=1,0
+
+// Generic Rejuv scroll/potion base uberalias
+[AIp1]
+Art=ReplaceableTextures\CommandButtons\BTNMinorRejuvPotion.blp
+
+[AIp2]
+Art=ReplaceableTextures\CommandButtons\BTNLesserRejuvPotion.blp
+
+[AIp3]
+Art=ReplaceableTextures\CommandButtons\BTNRejuvPotion.blp
+
+[AIp4]
+Art=ReplaceableTextures\CommandButtons\BTNGreaterRejuvPotion.blp
+
+[BIrl]
+Buffart=ReplaceableTextures\CommandButtons\BTNHealingSalve.blp
+//Targetart=Abilities\Spells\Items\ScrollOfRegeneration\Scroll_Regen_Target.mdl
+Targetart=Abilities\Spells\Other\ANrm\ANrmTarget.mdl
+Targetattach=origin
+
+// Regeneration (Mana)
+[BIrm]
+Buffart=ReplaceableTextures\CommandButtons\BTNPotionOfClarity.blp
+//Targetart=Abilities\Spells\Items\ClarityPotion\ClarityTarget.mdl
+Targetart=Abilities\Spells\Other\ANrl\ANrlTarget.mdl
+Targetattach=origin
+
+// Regeneration (Life & Mana)
+[BIrg]
+Buffart=ReplaceableTextures\CommandButtons\BTNGreaterRejuvScroll.blp
+//Targetart=Abilities\Spells\Items\ScrollOfRejuvenation\ScrollManaHealth.mdl
+Targetart=Abilities\Spells\Other\ANrl\ANrlTarget.mdl,Abilities\Spells\Other\ANrm\ANrmTarget.mdl
+Targetattach=origin
+Targetattach1=origin
+Targetattachcount=2
+
+// One time permanent gold gain
+[AIgo]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// One time permanent lumber gain
+[AIdc]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfNeutralization.blp
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+Missilespeed=900
+MissileHoming=1
+
+// Spider Silk
+[Ablp]
+Art=ReplaceableTextures\CommandButtons\BTNSacrificialSkull.blp
+
+// mana steal
+[Aste]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfManaSteal.blp
+Casterart=Abilities\Spells\Other\Drain\ManaDrainCaster.mdl
+Casterattach=chest
+Targetart=Abilities\Spells\Other\Drain\ManaDrainTarget.mdl
+Targetattach=chest
+
+// Change TOD
+[AIct]
+Art=ReplaceableTextures\CommandButtons\BTNMoonStone.blp
+
+// Vampiric Potion
+[AIpv]
+Art=ReplaceableTextures\CommandButtons\BTNSpiritLink.blp
+Casterart=Abilities\Spells\Items\VampiricPotion\VampPotionCaster.mdl
+Casterattach=origin
+Buttonpos=1,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNSpiritLink.blp
+Researchbuttonpos=1,0
+Targetattachcount=2
+
+[BIpv]
+Buffart=ReplaceableTextures\CommandButtons\BTNSpiritLink.blp
+TargetArt=Abilities\Spells\Orc\TrollBerserk\HeadhunterWEAPONSLeft.mdl
+Targetattach=weapon,left
+Targetattach1=weapon,right
+Targetattachcount=2
+
+// Spell Damage Reduction
+[AIsr]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+
+// Build Tiny Castle
+[AIbl]
+Art=ReplaceableTextures\CommandButtons\BTNTinyCastle.blp
+
+// Build Tiny Altar
+[AIbg]
+Art=ReplaceableTextures\CommandButtons\BTNTownHall.blp
+
+// Build Tiny Scout Tower
+
+[Aret]
+Art=ReplaceableTextures\CommandButtons\BTNTomeOfRetraining.blp
+Casterart=Abilities\Spells\Items\TomeOfRetraining\TomeOfRetrainingCaster.mdl
+Casterattach=origin
+
+// Staff of Teleportation
+[AImt]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+// Shouldn't show art at targeted coordinate, so don't use Effectart.
+Areaeffectart=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl
+Casterart=Abilities\Spells\Human\MassTeleport\MassTeleportCaster.mdl
+// The targeted unit shouldn't show an effect, so there is no Targetart.
+Specialart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+
+// Staff of Preservation
+
+[Bnss]
+Buffart=ReplaceableTextures\CommandButtons\BTNSpellShieldAmulet.blp
+Targetart=Abilities\Spells\Items\SpellShieldAmulet\SpellShieldCaster.mdl
+Targetattach=origin
+
+// Spell book
+[Aspb]
+Art=ReplaceableTextures\CommandButtons\BTNSpellBookBLS.blp
+
+// Raise Dead
+[AIrd]
+Art=ReplaceableTextures\CommandButtons\BTNRaiseDead.blp
+
+// Staff of Sanctuary
+
+[AIsa]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfHaste.blp
+// target art will be taken care of by buff Bspe, in commonabilityfunc
+
+// Rune of Speed
+[AIsb]
+Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+Missileart=Abilities\Weapons\ProcMissile\ProcMissile.mdl
+MissileHoming=1
+Targetart=Abilities\Spells\Items\OrbSlow\OrbSlow.mdl
+Targetattach=weapon
+//Specialart=
+
+[AUds]
+Art=ReplaceableTextures\CommandButtons\BTNDarkSummoning.blp
+Researchart=ReplaceableTextures\CommandButtons\BTNDarkSummoning.blp
+Buttonpos=3,2
+Researchbuttonpos=3,0
+// leaving art
+Effectart=Abilities\Spells\Undead\Darksummoning\DarkSummonTarget.mdl
+// arrival art
+Targetart=Abilities\Spells\Undead\Darksummoning\DarkSummonTarget.mdl
+Missileart=Abilities\Spells\Undead\DarkSummoning\DarkSummonMissile.mdl
+Missilespeed=1500
+Order=darksummoning
+
+// anti-magic shield
+[AIxs]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyPotion.blp
+Order=antimagicshell
+
+[Aami]
+Order=antimagicshell
+
+// item divine shield
+[AIpg]
+Art=ReplaceableTextures\CommandButtons\BTNEntrapmentWard.blp
+Order=purge
+
+// item purge (shamanistic totem)
+
+[AIth]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AIti]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AItj]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AItk]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AItl]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AItn]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AItx]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+[AIdd]
+Art=ReplaceableTextures\CommandButtons\BTNDefend.blp
+Casterart=Abilities\Spells\Human\Defend\DefendCaster.mdl
+Order=defend
+
+// item Bash
+
+[AIft]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfFrost.blp
+Missileart=Abilities\Weapons\LichMissile\LichMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\AIob\AIobTarget.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\AIob\AIobSpecialArt.mdl
+Specialattach=chest
+
+// item lightning bonus
+[AIdd]
+Art=ReplaceableTextures\CommandButtons\BTNDefend.blp
+Casterart=Abilities\Spells\Human\Defend\DefendCaster.mdl
+
+// item chain lightning
+[AIxk]
+Art=ReplaceableTextures\CommandButtons\BTNBerserkForTrolls.blp
+order=berserk
+Casterart=Abilities\Spells\Orc\TrollBerserk\TrollBeserkerTarget.mdl
+Effectsound=BerserkerRage
+// Battle Wounds
+[S016]
+Art=war3mapImported\BTNSpell_Shadow_LifeDrain.blp
+Targetart=Abilities\Spells\Undead\UnholyAura\UnholyAura.mdl
+Targetattach=origin
+Buttonpos=2,2
+ResearchArt=war3mapImported\BTNSpell_Shadow_LifeDrain.blp
+Researchbuttonpos=2,0
+
+// NAS
+[S00L]
+Art=ReplaceableTextures\CommandButtons\PASBTNEngineeringUpgrade.blp
+Targetart=
+Targetattach=origin
+Buttonpos=2,2
+
+// Divine Speed Dante
+[S00H]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfPreservation.blp
+Targetart=
+Targetattach=
+Buttonpos=1,1
+
+// Book Move Speed Aura 3
+[S00B]
+Art=ReplaceableTextures\PassiveButtons\PASBTNUnholyAura.blp
+Targetart=Abilities\Spells\Orc\CommandAura\CommandAura.mdl
+Targetattach=origin
+Buttonpos=2,2
+
+// Book Move Speed Aura 2
+[S00A]
+Art=ReplaceableTextures\PassiveButtons\PASBTNUnholyAura.blp
+Targetart=Abilities\Spells\Orc\CommandAura\CommandAura.mdl
+Targetattach=origin
+Buttonpos=2,2
+
+// Book Move Speed Aura
+[S009]
+Art=ReplaceableTextures\PassiveButtons\PASBTNUnholyAura.blp
+Targetart=Abilities\Spells\Orc\CommandAura\CommandAura.mdl
+Targetattach=origin
+Buttonpos=2,2
+
+// Permanent Life Gain tom of hp
+[A1JD]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=
+Casterattach=origin
+
+// Item Agy Gain 400
+[A1JC]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// Item str Gain 400
+[A1JB]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// Item int Gain 200
+[A1JA]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+[A1IW]
+TargetArt=Abilities\Weapons\PhoenixMissile\Phoenix_Missile.mdl
+Targetattach=hand,right
+Targetattach1=hand,left
+Targetattachcount=2
+
+// mjolchain
+[A1IC]
+Art=ReplaceableTextures\CommandButtons\BTNPurge.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+Animnames=spell,chain
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNPurge.blp
+Researchbuttonpos=2,0
+
+// mjolchainproc
+[A1IB]
+Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+Missileart=Abilities\Weapons\ProcMissile\ProcMissile.mdl
+MissileHoming=1
+Targetart=Abilities\Spells\Items\OrbSlow\OrbSlow.mdl
+Targetattach=weapon
+
+// aldubreath
+[A1I5]
+Art=ReplaceableTextures\CommandButtons\BTNBreathOfFrost.blp
+Animnames=spell,slam
+Buttonpos=0,2
+Missileart=Abilities\Spells\Other\BreathOfFrost\BreathOfFrostMissile.mdl
+Missilespeed=1050
+Order=breathoffire
+
+// promethemana
+[A1I3]
+Art=
+Targetart=
+Targetattach=
+
+// Consume
+[A1I1]
+Art=ReplaceableTextures\PassiveButtons\PASBTNRegenerationAura.blp
+Casterart=Abilities\Spells\Undead\CarrionSwarm\CarrionSwarmDamage.mdl
+Casterattach=origin
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\PassiveButtons\PASBTNRegenerationAura.blp
+Researchbuttonpos=2,0
+Targetattachcount=2
+
+// Improve Scope
+[A1HS]
+Art=ReplaceableTextures\CommandButtons\BTNpso-1.blp
+Targetart=
+Targetattach=
+Buttonpos=2,1
+ResearchArt=ReplaceableTextures\CommandButtons\BTNpso-1.blp
+Researchbuttonpos=3,1
+
+// holyvetrege
+[A1HR]
+Art=
+Targetart=
+Targetattach=
+
+// ward priest
+[A1HO]
+Art=ReplaceableTextures\CommandButtons\BTNHealingWard.blp
+Order=healingward
+Buttonpos=2,1
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHealingWard.blp
+Researchbuttonpos=3,1
+
+// lunerspellresss
+[A1HN]
+Art=
+
+// lunarspellresaur
+[A1HK]
+Art=
+Targetart=
+Targetattach=
+
+// armscyth
+[A1HA]
+// area of effect damage of destructables
+
+// Tp Horse
+[A1H9]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+Areaeffectart=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl
+Casterart=Abilities\Spells\Human\MassTeleport\MassTeleportCaster.mdl
+Specialart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+
+// ArchAngel
+[A1H8]
+Art=war3mapImported\BTNLancelot_Shield.blp
+
+// GRAB +1000
+[A1H7]
+// area of effect damage of destructables
+[A1H6]
+TargetArt=Abilities\Spells\NightElf\Starfall\StarfallCaster.mdl
+Targetattach=origin
+[A1H5]
+TargetArt=Abilities\Spells\NightElf\FaerieFire\FaerieFireTarget.mdl
+Targetattach=overhead
+[A1H1]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Buttonpos=3,1
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=3,1
+
+// +x Bonus Damage
+[A1GV]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +1000 Bonus DamageDC
+[A1GG]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus +1000DC
+[A1GF]
+// area of effect damage of destructables
+
+// ART-60AS
+[A1G6]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// ART-74
+[A1G5]
+// area of effect damage of destructables
+
+// Art-DG
+[A1G4]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// RegDrg
+[A1EZ]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Item Experience Gain +3000
+[A1EV]
+Art=ReplaceableTextures\CommandButtons\BTNTomeBrown.blp
+Casterart=Abilities\Spells\Items\AIem\AIemTarget.mdl
+Casterattach=origin
+
+// Item Agy Gain 6
+[A1EU]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// Item Strength Gain 6
+[A1ET]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// Item Intelligence Gain 8
+[A1ES]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// Item move speed 300
+[A1EF]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// SIDMP
+[A1E8]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=
+Casterattach=origin
+
+// +285 BD SIS
+[A1E4]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Permanent Life Gain 800
+[A1E3]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// Permanent Life Gain 280
+[A1E2]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// Permanent Life Gain 100
+[A1E1]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// +2600 Damage
+[A1DW]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +3000 Damage
+[A1DV]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// SpAt 3
+[A1DS]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// SpAt 2
+[A1DR]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// SpAt 1
+[A1DQ]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// +600 DC
+[A1DH]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// NGL -600
+[A1DG]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// RegFBB
+[A1DC]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// ArmoDemo
+[A1C8]
+// area of effect damage of destructables
+
+// DC Armor Demolish
+[A1C7]
+Art=war3mapImported\BTNBreakingSmash.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+Animnames=spell,chain
+Buttonpos=2,1
+ResearchArt=ReplaceableTextures\CommandButtons\BTNPurge.blp
+Researchbuttonpos=2,0
+[A1C6]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=2,0
+[A1C5]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=1,0
+[A1C4]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+
+// DCBD
+[A1BP]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=
+Casterattach=origin
+
+// +190 Bonus Damage DC
+[A1BN]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// SE +
+[A1BM]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=
+Casterattach=
+
+// NGH -2700
+[A1BK]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus +350
+[A1BI]
+// area of effect damage of destructables
+
+// +250 Bonus DamageID
+[A1BG]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Attack Speed +82%
+[A1BE]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Rune bird Area Heal/Mana Regain
+[A1AZ]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfHealing.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+Effectsound=PowerupSound
+
+// Attack Speed -63%
+[A1AX]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Armor Bonus -117
+[A1AW]
+// area of effect damage of destructables
+
+// -680 BD
+[A1AV]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Attack Speed +1200%
+[A1AR]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Wind
+[A1AP]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+Areaeffectart=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl
+Casterart=Abilities\Spells\Human\MassTeleport\MassTeleportCaster.mdl
+Specialart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+
+// StPotionsOnHP
+[A1AN]
+Art=ReplaceableTextures\CommandButtons\BTNPotionRed.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+
+// En +1200 Bonus Damage
+[A1AJ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Rege HP300
+[A1AI]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Permanent Life Gain 380
+[A1AE]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// Permanent Life Gain 42
+[A1AD]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// StPotionsHealandmana
+[A1A7]
+Art=ReplaceableTextures\CommandButtons\BTNPotionRed.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+
+// Permanent Life GainGTU
+[A1A3]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=
+Casterattach=origin
+
+// Permanent Life Gain GTU
+[A1A2]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=
+Casterattach=origin
+
+// +3800 Bonus Damage
+[A19Y]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Item Mana Bonus 16000
+[A19W]
+// temporary attack speed increase
+
+// +200 Ench Bonus Damage
+[A19T]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Permanent Life Gain 618
+[A19R]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// Permanent Life Gain 573
+[A19Q]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// +340 BD NI
+[A19P]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +168 BD NI
+[A19O]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +135 BD NI
+[A19N]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Permanent Life Gain 120
+[A19K]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Casterattach=origin
+
+// Life Steal DemcS
+[A19J]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// +1400 Bonus Damage
+[A19A]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +1200 Bonus Damage
+[A199]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+[A195]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=3,1
+[A194]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=3,0
+[A192]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=1,0
+[A191]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+
+// WB Skin Breaker
+[A18R]
+Art=war3mapImported\BTNImprovedSamuraiBlades.blp
+Missileart=
+Missilespeed=0
+Targetart=Abilities\Spells\Other\HowlOfTerror\HowlCaster.mdl
+Order=chainlightning
+LightningEffect=
+Animnames=Slam
+Buttonpos=2,2
+ResearchArt=war3mapImported\BTNImprovedSamuraiBlades.blp
+Researchbuttonpos=2,0
+
+// WD NASpeed
+[A18M]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// WD NDamage
+[A18L]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+[A18K]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=3,1
+[A18J]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=3,0
+[A18I]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=2,0
+
+// +170 Eli3
+[A18E]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +160 Eli2
+[A18D]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +160 Eli
+[A18C]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Powerup Area Healing 3
+[A17J]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfTownPortal.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+CasterArt=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Effectsound=PowerupSound
+
+// Powerup Area Healing 2
+[A17I]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfTownPortal.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+CasterArt=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Effectsound=PowerupSound
+
+// +1700 Bonus Damage
+[A17G]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// AM 2
+[A174]
+// area of effect damage of destructables
+
+// AM
+[A173]
+// area of effect damage of destructables
+
+// MS
+[A172]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Armor Bonus -100
+[A16K]
+// area of effect damage of destructables
+
+// +40000 Bonus Damage
+[A16G]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// En +340 Bonus Damage
+[A162]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// En Armor Bonus +155
+[A15Z]
+// area of effect damage of destructables
+
+// 350 A
+[A15G]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Rege HP500
+[A14Z]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// -3000 Bonus Damage
+[A14Y]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// TPAAC
+[A14Q]
+// area of effect damage of destructables
+
+// TPT Bouler Covering
+[A149]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedCreatureCarapace.blp
+Targetart=
+Targetattach=
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNImprovedCreatureCarapace.blp
+Researchbuttonpos=3,0
+
+// TPA Archery Mastery
+[A145]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedBows.blp
+Targetart=
+Targetattach=
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNImprovedBows.blp
+Researchbuttonpos=3,0
+
+// Armor Bonus -130
+[A144]
+// area of effect damage of destructables
+
+// TPT Rhazin Rage
+[A141]
+Art=ReplaceableTextures\CommandButtons\BTNBerserkForTrolls.blp
+Casterart=Abilities\Spells\Items\VampiricPotion\VampPotionCaster.mdl
+Casterattach=origin
+Buttonpos=2,1
+ResearchArt=ReplaceableTextures\CommandButtons\BTNBerserkForTrolls.blp
+Researchbuttonpos=3,1
+Targetattachcount=2
+
+// TPPD Holy Blast Fake
+[A13Y]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Order=unholyfrenzy
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Researchbuttonpos=3,0
+TargetArt=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+
+// TPPD AB 6
+[A13W]
+// area of effect damage of destructables
+
+// TPPD AB 5
+[A13V]
+// area of effect damage of destructables
+
+// TPPD AB 4
+[A13U]
+// area of effect damage of destructables
+
+// TPPD AB 3
+[A13T]
+// area of effect damage of destructables
+
+// TPPD AB 2
+[A13S]
+// area of effect damage of destructables
+
+// TPPD AB 1
+[A13R]
+// area of effect damage of destructables
+
+// TPPD DB 6
+[A13Q]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// TPPD DB 5
+[A13P]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// TPPD DB 4
+[A13O]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// TPPD DB 3
+[A13N]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// TPPD DB 2
+[A13M]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// TPPD DB 1
+[A13L]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus Adriels 
+[A13H]
+// area of effect damage of destructables
+
+// TPM Mass Shock
+[A13A]
+Art=ReplaceableTextures\CommandButtons\BTNPurge.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+Animnames=spell,chain
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNPurge.blp
+Researchbuttonpos=2,0
+
+// +200 Bonus Damage Ill
+[A130]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Attack Speed -150%
+[A12R]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Armor Bonus -200
+[A12Q]
+// area of effect damage of destructables
+
+// -500 Bonus Damage
+[A12P]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Attack Speed -85%
+[A12K]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Item Mana Bonus 6000
+[A12G]
+// temporary attack speed increase
+
+// Armor Bonus -220
+[A129]
+// area of effect damage of destructables
+
+// +1800 Bonus Damage
+[A128]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Life Steal VR Claws
+[A127]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Item Mana Bonus 1700
+[A122]
+// temporary attack speed increase
+
+// 50% Accurate
+[A121]
+Art=ReplaceableTextures\CommandButtons\BTNMarksmanship.blp
+Order=bash
+Buttonpos=0,2
+
+// Armor Bonus K +80
+[A10Q]
+// area of effect damage of destructables
+
+// Armor Bonus K +40
+[A10P]
+// area of effect damage of destructables
+
+// Armor Bonus K +20
+[A10O]
+// area of effect damage of destructables
+
+// Armor Bonus K +10
+[A10N]
+// area of effect damage of destructables
+
+// Armor Bonus K +5
+[A10M]
+// area of effect damage of destructables
+
+// Item Illusions 2nd
+[A10L]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+Targetart=Abilities\Spells\Items\AIil\AIilTarget.mdl
+Targetattach=origin
+
+// +160 Bonus Damage ID5
+[A10G]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +160 Bonus Damage ID4
+[A10F]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +160 Bonus Damage ID3
+[A10E]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +160 Bonus Damage ID2
+[A10D]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus +40 ID5
+[A10C]
+// area of effect damage of destructables
+
+// Armor Bonus +40 ID4
+[A10B]
+// area of effect damage of destructables
+
+// Armor Bonus +40 ID3
+[A10A]
+// area of effect damage of destructables
+
+// Armor Bonus +40 ID2
+[A109]
+// area of effect damage of destructables
+
+// Density
+[A105]
+Art=ReplaceableTextures\CommandButtons\BTNImbuedMasonry.blp
+Casterart=
+Order=roar
+Animnames=spell,slam
+Buttonpos=1,1
+
+// Armor Bonus Mur
+[A102]
+// area of effect damage of destructables
+
+// Reaper
+[A0ZY]
+Art=ReplaceableTextures\CommandButtons\BTNCorpseExplode.blp
+Targetart=Abilities\Spells\Demon\DemonBoltImpact\DemonBoltImpact.mdl
+LightningEffect=AFOD
+Buttonpos=2,1
+ResearchArt=ReplaceableTextures\CommandButtons\BTNCorpseExplode.blp
+Researchbuttonpos=3,1
+
+// -180 damage Arc
+[A0ZU]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Item move speed -280 ARC
+[A0ZT]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Attack Speed -80 ARC
+[A0ZS]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Ass Critical Strike
+[A0ZO]
+Art=war3mapImported\BTNRobeOfDeath.blp
+Buttonpos=1,1
+
+// Ass Mastery
+[A0ZJ]
+Art=war3mapImported\PASCriticalStrikeDAB.blp
+Targetart=
+Targetattach=
+Buttonpos=3,2
+ResearchArt=war3mapImported\BTNCriticalStrikeDAB.blp
+Researchbuttonpos=3,0
+
+// +120 Bonus Damage CI
+[A0ZG]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Counter Attack [R]
+[A0Z9]
+Art=war3mapImported\PASReflex.blp
+Targetart=Abilities\Spells\Human\DevotionAura\DevotionAura.mdl
+Targetattach=origin
+Buttonpos=3,2
+ResearchArt=war3mapImported\BTNReflex.blp
+Researchbuttonpos=3,0
+
+// Armor Bonus +300 GR
+[A0Z7]
+// area of effect damage of destructables
+
+// +4000 Bonus Damage
+[A0YU]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +10000 Bonus Damage
+[A0YT]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus +150 Knight
+[A0YS]
+// area of effect damage of destructables
+
+// Rege HP100
+[A0YO]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// -80 Armor
+[A0YH]
+// area of effect damage of destructables
+
+// -40 Armor
+[A0YG]
+// area of effect damage of destructables
+
+// -20 Armor
+[A0YF]
+// area of effect damage of destructables
+
+// -10 Armor
+[A0YE]
+// area of effect damage of destructables
+
+// -5 Armor
+[A0YD]
+// area of effect damage of destructables
+
+// Item move speed 50
+[A0XP]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Life Steal Vampiric Sword
+[A0XM]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Rege HP200
+[A0XK]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// +1600 Bonus Damage
+[A0XJ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Ruby Celestial Sword
+[A0X8]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// Ruby Divine Sword
+[A0X7]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// Ruby Perfect
+[A0X6]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// DSA
+[A0X4]
+Art=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Targetart=Abilities\Spells\Human\DevotionAura\DevotionAura.mdl
+Targetattach=origin
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Researchbuttonpos=3,0
+
+// Attack Speed +500%
+[A0X3]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Armor Bonus +800
+[A0WZ]
+// area of effect damage of destructables
+
+// Attack Speed -250%
+[A0WY]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Attack Speed -80%
+[A0WX]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Armor Bonus +150
+[A0WW]
+// area of effect damage of destructables
+
+// Rege HP150
+[A0WV]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// +2000 Bonus Damage
+[A0WT]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +1000 Bonus Damage
+[A0WS]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +700 Bonus Damage
+[A0WR]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Item Mana Bonus 20000
+[A0W8]
+// temporary attack speed increase
+
+// Item Mana Bonus 4000
+[A0W7]
+// temporary attack speed increase
+
+// Mana regeneration 500%
+[A0W3]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Item move speed 250
+[A0VZ]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Item move speed 150
+[A0VY]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Attack Speed +30%
+[A0VN]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Item move speed 135
+[A0VM]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Item move speed 100
+[A0VL]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Item move speed X
+[A0VK]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Attack Speed +10%
+[A0VJ]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Armor Bonus +1000
+[A0VG]
+// area of effect damage of destructables
+
+// 80% Accurate
+[A0V5]
+Art=ReplaceableTextures\CommandButtons\BTNMarksmanship.blp
+Order=bash
+Buttonpos=0,2
+
+// Attack Speed +300%
+[A0V4]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Unbroken ilusions
+[A0V2]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+Targetart=Abilities\Spells\Items\AIil\AIilTarget.mdl
+Targetattach=origin
+Order=cripple
+
+// Armor Bonus +260
+[A0UX]
+// area of effect damage of destructables
+
+// Attack Speed +160%
+[A0UU]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Eternity
+[A0UT]
+Art=ReplaceableTextures\CommandButtons\BTNMoonStone.blp
+Buttonpos=1,0
+CasterArt=Abilities\Spells\NightElf\Tranquility\Tranquility.mdl
+Casterattach=origin
+SpecialArt=Abilities\Spells\NightElf\Tranquility\Tranquility.mdl
+TargetArt=Abilities\Spells\NightElf\Tranquility\Tranquility.mdl
+
+// Rege HP80
+[A0US]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Mana regeneration 425%
+[A0U6]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// +160 Bonus Damage
+[A0U0]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Frost Aura [E]
+[A0TK]
+Art=ReplaceableTextures\PassiveButtons\PASBTNFreezingBreath.blp
+Targetart=Abilities\Spells\Other\Drain\ManaDrainTarget.mdl
+Targetattach=origin
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNFreezingBreath.blp
+Researchbuttonpos=2,0
+
+// Gold +2000
+[A0TG]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// Gold +1000
+[A0TF]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// Gold +700
+[A0TE]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// Gold +500
+[A0TD]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// Gold +300
+[A0TC]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// Gold +150
+[A0TB]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// Vampiric Aura NosfeFGS
+[A0T9]
+Art=ReplaceableTextures\CommandButtons\BTNVampiricAura.blp
+Targetart=Abilities\Spells\Undead\VampiricAura\VampiricAura.mdl
+Targetattach=origin
+
+// Life Steal Halberd
+[A0SV]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Rege HP20
+[A0SU]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// +250 Bonus Damage
+[A0ST]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +3000 BD
+[A0SS]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus +400
+[A0SN]
+// area of effect damage of destructables
+
+// +26000 Bonus Damage
+[A0SK]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Ultimate Footman
+[A0SF]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreenSmall.blp
+Targetart=Abilities\Spells\Orc\SpiritLink\SpiritLinkZapTarget.mdl
+Targetattach=overhead
+
+// Black mage Finger
+[A0QO]
+Art=ReplaceableTextures\CommandButtons\BTNCorpseExplode.blp
+Targetart=Abilities\Spells\Demon\DemonBoltImpact\DemonBoltImpact.mdl
+LightningEffect=AFOD
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNCorpseExplode.blp
+Researchbuttonpos=3,0
+
+// White mage Holy Light 4
+[A0PZ]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=1,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Researchbuttonpos=1,0
+
+// White mage Holy Light 3
+[A0PY]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Researchbuttonpos=2,0
+
+// White mage Holy Light 2
+[A0PX]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Researchbuttonpos=2,0
+
+// White mage Holy Light 1
+[A0PW]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=0,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+
+// Monk Metitation
+[A0PT]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Researchbuttonpos=2,0
+
+// Swordman chain Lightning 3
+[A0PE]
+Art=war3mapImported\BTNHoly_Sword.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+Animnames=attack
+Buttonpos=0,2
+ResearchArt=war3mapImported\BTNHoly_Sword.blp
+
+// Swordman chain Lightning 2
+[A0PD]
+Art=war3mapImported\BTNHoly_Sword.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+Animnames=attack
+Buttonpos=0,2
+ResearchArt=war3mapImported\BTNHoly_Sword.blp
+
+// Swordman chain Lightning 1
+[A0PC]
+Art=war3mapImported\BTNHoly_Sword.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+Animnames=attack
+Buttonpos=0,2
+ResearchArt=war3mapImported\BTNHoly_Sword.blp
+
+// Footman Counter
+[A0P8]
+Art=ReplaceableTextures\CommandButtons\PASSword2.blp
+Targetart=
+Targetattach=origin
+Buttonpos=2,2
+ResearchArt=war3mapImported\BTNSword2.blp
+Researchbuttonpos=2,0
+
+// Vampire Vampiric Aura 2
+[A0O7]
+Art=ReplaceableTextures\PassiveButtons\PASBTNVampiricAura.blp
+Targetart=Abilities\Spells\Undead\VampiricAura\VampiricAura.mdl
+Targetattach=origin
+Buttonpos=0,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNVampiricAura.blp
+
+// Item Mana Bonus 1300
+[A0NQ]
+// temporary attack speed increase
+
+// Lich Frost Nova IT
+[A0NP]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Panda Chain light IT
+[A0NI]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Breath of fire TM ORB
+[A0NE]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// +40 Bonus Damage
+[A0MQ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +35 Bonus Damage
+[A0MP]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +25 Bonus Damage
+[A0MO]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Obelisk Heal 
+[A0L5]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=0,2
+Requires=R00J
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+
+// Priest Heal 
+[A0KV]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=0,2
+Requires=R00C
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+
+// House Gold
+[A0KH]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=
+Casterattach=origin
+Effectsound=
+
+// Healing Tower Aura L3
+[A0K2]
+Art=ReplaceableTextures\CommandButtons\BTNHealingWard.blp
+Targetart=
+Targetattach=origin
+Buttonpos=3,1
+ResearchArt=war3mapImported\BTNShackle.blp
+Researchbuttonpos=2,0
+
+// Healing Tower Aura L2
+[A0K1]
+Art=ReplaceableTextures\CommandButtons\BTNHealingWard.blp
+Targetart=
+Targetattach=origin
+Buttonpos=3,1
+ResearchArt=war3mapImported\BTNShackle.blp
+Researchbuttonpos=2,0
+
+// Healing Tower Aura L1
+[A0JV]
+Art=ReplaceableTextures\CommandButtons\BTNHealingWard.blp
+Targetart=
+Targetattach=origin
+Buttonpos=3,1
+ResearchArt=war3mapImported\BTNShackle.blp
+Researchbuttonpos=2,0
+
+// Move Speed Thief
+[A0IU]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+TargetArt=Abilities\Spells\Orc\TrollBerserk\HeadhunterWEAPONSLeft.mdl,Abilities\Spells\Orc\TrollBerserk\HeadhunterWEAPONSRight.mdl
+Targetattach=weapon,right
+
+// Attack Corruption Defiler
+[A0IO]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+// Admiral Armor (L9)
+[A0IJ]
+// area of effect damage of destructables
+
+// Admiral Armor (L8)
+[A0II]
+// area of effect damage of destructables
+
+// Admiral Armor (L7)
+[A0IH]
+// area of effect damage of destructables
+
+// Admiral Armor (L6)
+[A0IG]
+// area of effect damage of destructables
+
+// Admiral Armor (L5)
+[A0IF]
+// area of effect damage of destructables
+
+// Admiral Armor (L4)
+[A0IE]
+// area of effect damage of destructables
+
+// Admiral Armor (L3)
+[A0ID]
+// area of effect damage of destructables
+
+// Admiral Armor (L2)
+[A0IC]
+// area of effect damage of destructables
+
+// Admiral Armor (L1)
+[A0IB]
+// area of effect damage of destructables
+
+// Battle Knowledge
+[A0IA]
+Art=ReplaceableTextures\CommandButtons\PASSword2.blp
+Targetart=
+Targetattach=
+Buttonpos=3,2
+ResearchArt=war3mapImported\BTNSword2.blp
+Researchbuttonpos=3,0
+
+// Strength Gain
+[A0I5]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIsm\AIsmTarget.mdl
+Targetattach=origin
+[A0I4]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=1,0
+[A0I3]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+
+// WD Immortal
+[A0I2]
+Art=ReplaceableTextures\CommandButtons\PASShackle.blp
+Targetart=Abilities\Spells\Undead\UnholyAura\UnholyAura.mdl
+Targetattach=origin
+Buttonpos=1,1
+ResearchArt=war3mapImported\BTNShackle.blp
+Researchbuttonpos=3,1
+
+// WD DDAa
+[A0I1]
+Art=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Targetart=
+Targetattach=origin
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Researchbuttonpos=3,0
+
+// WD Armored
+[A0HN]
+Art=war3mapImported\PASMetal Armor.blp
+Targetart=Abilities\Spells\Human\DevotionAura\DevotionAura.mdl
+Targetattach=origin
+Buttonpos=1,2
+ResearchArt=war3mapImported\PASMetal Armor.blp
+Researchbuttonpos=1,0
+[A0HJ]
+Art=
+
+// Bonus Damage Black Citadel 2
+[A0HI]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Tower 8
+[A0HD]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Tower 7
+[A0HC]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Tower 6
+[A0HB]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Tower 5
+[A0HA]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Rege HP60
+[A0H7]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Armor Bonus +200
+[A0H5]
+// area of effect damage of destructables
+
+// +400 Bonus Damage
+[A0H4]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// 40% Accurate
+[A0H3]
+Art=ReplaceableTextures\CommandButtons\BTNMarksmanship.blp
+Order=bash
+Buttonpos=0,2
+
+// Ruby of War
+[A0GX]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// Armor Bonus +55
+[A0GS]
+// area of effect damage of destructables
+
+// Armor Bonus +25
+[A0GO]
+// area of effect damage of destructables
+
+// Rege HP 12
+[A0GN]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Demonicz Sword
+[A0GI]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Attack Speed +50%
+[A0GG]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +310 Bonus Damage
+[A0GE]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// CC.Chest of Gold
+[A0G4]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+Casterart=Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdl
+Casterattach=origin
+Effectsound=ReceiveGold
+
+// Recover 3
+[A0G3]
+Art=ReplaceableTextures\CommandButtons\BTNMoonStone.blp
+Buttonpos=1,0
+CasterArt=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Casterattach=origin
+
+// Recover 2
+[A0G2]
+Art=ReplaceableTextures\CommandButtons\BTNMoonStone.blp
+Buttonpos=1,0
+CasterArt=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Casterattach=origin
+
+// Bonus Damage Tower 4
+[A0FZ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Tower 3
+[A0FY]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Tower 2
+[A0FX]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Tower 1
+[A0FW]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +300 Bonus Damage Maiev
+[A0EF]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Gods Essence Punishment
+[A0ED]
+Art=ReplaceableTextures\CommandButtons\BTNMarksmanship.blp
+Order=bash
+Buttonpos=0,2
+
+// Attack Speed Devil Fury
+[A0E7]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +770 Bonus Damage
+[A0E4]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus +90
+[A0E1]
+// area of effect damage of destructables
+
+// Item Mana Bonus 3000
+[A0DZ]
+// temporary attack speed increase
+
+// Rege HP 26
+[A0DS]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege HP 16
+[A0DR]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Muradin mana bonus L9
+[A0DM]
+// temporary attack speed increase
+
+// Muradin mana bonus L8
+[A0DL]
+// temporary attack speed increase
+
+// Muradin mana bonus L7
+[A0DK]
+// temporary attack speed increase
+
+// Muradin mana bonus L6
+[A0DJ]
+// temporary attack speed increase
+
+// Muradin mana bonus L5
+[A0DI]
+// temporary attack speed increase
+
+// Muradin mana bonus L4
+[A0DH]
+// temporary attack speed increase
+
+// Muradin mana bonus L3
+[A0DG]
+// temporary attack speed increase
+
+// Muradin mana bonus L2
+[A0DF]
+// temporary attack speed increase
+
+// Muradin mana bonus L1
+[A0DE]
+// temporary attack speed increase
+
+// Battle Attributes
+[A0D3]
+Art=ReplaceableTextures\CommandButtons\PASBattlePriestsHammer.blp
+Targetart=
+Targetattach=
+Buttonpos=2,2
+ResearchArt=war3mapImported\BTNBattlePriestsHammer.blp
+Researchbuttonpos=2,0
+
+// Move speed regeneration
+[A0CW]
+Art=ReplaceableTextures\PassiveButtons\PASBTNSmash.blp
+Targetart=
+Targetattach=origin
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNSmash.blp
+Researchbuttonpos=3,0
+
+// Rege HP Devil s
+[A0CT]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege HP Devil F
+[A0CS]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Ferocity
+[A0CO]
+Art=ReplaceableTextures\PassiveButtons\PASBTNCommand.blp
+Targetart=Abilities\Spells\Orc\CommandAura\CommandAura.mdl
+Targetattach=origin
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNCommand.blp
+Researchbuttonpos=3,0
+
+// Shuriken
+[A0CA]
+Art=ReplaceableTextures\CommandButtons\BTNChainLightning.blp
+Missileart=Abilities\Weapons\SentinelMissile\SentinelMissile.mdl
+Missilespeed=1500
+Targetart=
+Order=chainlightning
+LightningEffect=
+Animnames=spell,chain
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNChainLightning.blp
+Researchbuttonpos=2,0
+
+// Blind Spots
+[A0C9]
+Art=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Targetart=
+Targetattach=origin
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Researchbuttonpos=3,0
+
+// Alpha Lightning
+[A0BU]
+Art=ReplaceableTextures\CommandButtons\BTNChainLightning.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+Animnames=spell,chain
+Buttonpos=2,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNChainLightning.blp
+Researchbuttonpos=2,0
+
+// Ghost Heal 
+[A0BO]
+Art=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+Targetart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Order=holybolt
+Buttonpos=0,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNHolyBolt.blp
+
+// +500 Bonus Damage
+[A0BJ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Attack Corruption Bonus -60
+[A0BD]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+// Second Chance
+[A0BB]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreenSmall.blp
+Targetart=Abilities\Spells\Orc\SpiritLink\SpiritLinkZapTarget.mdl
+Targetattach=overhead
+
+// Armor Bonus +180
+[A0B8]
+// area of effect damage of destructables
+
+// Warrior Boots
+[A0B3]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Rege HP+10
+[A0B0]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Armor Bonus +18
+[A0AZ]
+// area of effect damage of destructables
+
+// +380 Bonus Damage
+[A0AW]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// W.Teleport
+[A0AL]
+Art=war3mapImported\BTNWaterOrb.blp
+Buttonpos=3,1
+Order=blink
+Areaeffectart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
+Specialart=Objects\Spawnmodels\Naga\NagaDeath\NagaDeath.mdl
+Animnames=spell,throw
+ResearchArt=ReplaceableTextures\CommandButtons\BTNBlink.blp
+Researchbuttonpos=1,0
+
+// Life Steal Nosferatu
+[A0A3]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Breath of Darigaaz
+[A0A2]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Web T
+[A0A0]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Crushin Wave ITWildkin
+[A09M]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// +120 Bonus Damage
+[A09B]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +500 Bonus Damage
+[A099]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Attack Corruption Assassin BL2
+[A098]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+// Staff of Teleportation 2
+[A096]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+Areaeffectart=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl
+Casterart=Abilities\Spells\Human\MassTeleport\MassTeleportCaster.mdl
+Specialart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+
+// Wind Boots
+[A095]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Attack Speed +140%
+[A092]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +280 Bonus Damage
+[A091]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Mana regeneration 400%
+[A08W]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Mana regeneration 375%
+[A08V]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// +180 Bonus Damage
+[A08Q]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Rege HP40
+[A08P]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege HP50
+[A08O]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Armor Bonus +80
+[A08N]
+// area of effect damage of destructables
+
+// Rege L8
+[A08M]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L7
+[A08L]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L9
+[A08K]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L6
+[A08J]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L5
+[A08I]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L4
+[A08H]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L3
+[A08G]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L2
+[A08F]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege L1
+[A08E]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Permanent Inml ( especial3)
+[A07P]
+Art=ReplaceableTextures\CommandButtons\BTNCloakOfFlames.blp
+
+// Permanent Inml ( especial2)
+[A07O]
+Art=ReplaceableTextures\CommandButtons\BTNCloakOfFlames.blp
+
+// Permanent Inml ( especial1)
+[A07N]
+Art=ReplaceableTextures\CommandButtons\BTNCloakOfFlames.blp
+
+// based on Infern
+[A07E]
+Art=ReplaceableTextures\CommandButtons\BTNRockGolem.blp
+Effectart=Units\Demon\Infernal\InfernalBirth.mdl
+Order=inferno
+Buttonpos=2,1
+ResearchArt=ReplaceableTextures\CommandButtons\BTNRockGolem.blp
+Researchbuttonpos=3,1
+
+// Firebolt (Final)t
+[A06M]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Armor Bonus +50
+[A06I]
+// area of effect damage of destructables
+
+// Attack Corruption Bonus Level 4
+[A06C]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+// Attack Corruption Bonus Level 3
+[A06B]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+// Attack Corruption Bonus Level 2
+[A06A]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+// Attack Corruption Bonus Level 1
+[A069]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+Missileart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionMissile.mdl
+Missilehoming=1
+Targetart=Abilities\Spells\Items\OrbCorruption\OrbCorruption.mdl
+Targetattach=weapon
+Specialart=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Specialattach=chest
+
+// B.D.Darigaaz IT
+[A05Y]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Chain L.Salam IT
+[A05U]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Chain lighting IT
+[A05E]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Swamp IT
+[A05D]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Slamt IT
+[A05C]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Mana regeneration 350%
+[A058]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Attack Speed +80%
+[A057]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Attack Speed +120%
+[A054]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +240 Bonus Damage
+[A052]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus +60
+[A050]
+// area of effect damage of destructables
+
+// Armor Bonus +100
+[A04Z]
+// area of effect damage of destructables
+
+// +300 Bonus Damage
+[A04W]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Rege HP Inmortal
+[A04U]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege HP 6
+[A04Q]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Glacial Sword
+[A04O]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Item Mana Bonus 2000
+[A04J]
+// temporary attack speed increase
+
+// Mana regeneration 300%
+[A04I]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// +30 Bonus Damage
+[A04H]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +200 Bonus Damage
+[A04E]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Rege HP G.Helm
+[A04C]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Armor Bonus +40
+[A04A]
+// area of effect damage of destructables
+
+// 100% Accurate
+[A046]
+Art=ReplaceableTextures\CommandButtons\BTNMarksmanship.blp
+Order=bash
+Buttonpos=0,2
+
+// Final Weapon A
+[A045]
+// area of effect damage of destructables
+
+// Final Weapon D
+[A044]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// V. Blood
+[A042]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreenSmall.blp
+Targetart=Abilities\Spells\Items\AIhe\AIheTarget.mdl
+Targetattach=origin
+
+// Item move Dragon
+[A041]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// B.of Dragon
+[A040]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Attack Speed +100%
+[A03W]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +350 Bonus Damage
+[A03V]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Dragon Blood
+[A03U]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreenSmall.blp
+Targetart=Abilities\Spells\Items\AIhe\AIheTarget.mdl
+Targetattach=origin
+
+// Attack Speed +46%
+[A03T]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +150 Bonus Damage
+[A03S]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// B.Fire IT
+[A03N]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Item Heal/Mana RegainMAX
+[A03K]
+Art=ReplaceableTextures\CommandButtons\BTNPotionRed.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+
+// Item Heal/Mana RegainX
+[A03J]
+Art=ReplaceableTextures\CommandButtons\BTNPotionRed.blp
+Targetart=Abilities\Spells\Items\AIre\AIreTarget.mdl
+Targetattach=origin
+
+// Rege HP L.Armor
+[A03G]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Item Armor Bonus (+120)
+[A03E]
+// area of effect damage of destructables
+
+// Rege HP(11)
+[A03C]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Item Mana Bonus 900
+[A03B]
+// temporary attack speed increase
+
+// Dexterity
+[A02P]
+Art=ReplaceableTextures\CommandButtons\PASFarArrow.blp
+Targetart=
+Targetattach=origin
+Buttonpos=2,1
+ResearchArt=ReplaceableTextures\CommandButtons\PASFarArrow.blp
+Researchbuttonpos=3,1
+[A02N]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02M]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02L]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02K]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+
+// Spellbook 2
+[A02J]
+Art=ReplaceableTextures\CommandButtons\BTNSpellBookBLS.blp
+
+// Spellbook
+[A02I]
+Art=ReplaceableTextures\CommandButtons\BTNSpellBookBLS.blp
+[A02H]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02G]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02F]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02E]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02D]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+[A02B]
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+ResearchArt=ReplaceableTextures\CommandButtons\BTNNagaArmorUp1.blp
+
+// Item Mana Bonus 500
+[A029]
+// temporary attack speed increase
+
+// Armor Bonus +14
+[A027]
+// area of effect damage of destructables
+
+// +32 Bonus Damage
+[A026]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Mana regeneration 250%
+[A023]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Rege HPZombi H
+[A01W]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Armor Bonus +30
+[A01S]
+// area of effect damage of destructables
+
+// Armor Bonus +22
+[A01R]
+// area of effect damage of destructables
+
+// Armor Bonus +16
+[A01N]
+// area of effect damage of destructables
+
+// Life Steal MOD
+[A01J]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Life Steal Corrupted Sword
+[A01G]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Attack Speed +70%
+[A01E]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +50 Bonus Damage
+[A01D]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +70 Bonus Damage
+[A01C]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// F.Sword
+[A019]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Attack Speed +25%
+[A017]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// +44 Bonus Damage
+[A016]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// +70 Bonus Damage
+[A015]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// F.bolt IT
+[A014]
+Art=ReplaceableTextures\CommandButtons\BTNFireBolt.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Swamp IT TT
+[A013]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+Missileart=
+Missilehoming=1
+Targetart=
+Targetattach=weapon
+Specialattach=chest
+
+// Potion 2h
+[A012]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreenSmall.blp
+Targetart=Abilities\Spells\Items\AIhe\AIheTarget.mdl
+Targetattach=origin
+
+// MP G
+[A011]
+Art=ReplaceableTextures\CommandButtons\BTNPotionBlueSmall.blp
+Casterart=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Casterattach=origin
+
+// MOT
+[A010]
+Art=ReplaceableTextures\CommandButtons\BTNPotionOfClarity.blp
+Casterart=Abilities\Spells\Items\AIma\AImaTarget.mdl
+Casterattach=origin
+
+// HSX
+[A00Z]
+Art=ReplaceableTextures\CommandButtons\BTNHealingSalve.blp
+Casterart=Abilities\Spells\Human\Heal\HealTarget.mdl
+Casterattach=origin
+Targetart=Abilities\Spells\Items\HealingSalve\HealingSalveTarget.mdl
+Targetattach=origin
+
+// Potion 1 H
+[A00Y]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreenSmall.blp
+Targetart=Abilities\Spells\Items\AIhe\AIheTarget.mdl
+Targetattach=origin
+
+// Item move speed 70
+[A00X]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Item Mana Regeneration
+[A00S]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Mana regeneration 160%
+[A00R]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Mana regeneration 75%
+[A00Q]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Mana regeneration 100%
+[A00P]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Mana regeneration 50%
+[A00O]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Rege HP3
+[A00L]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege HP2
+[A00K]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Rege HP1
+[A00J]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// ........
+[A009]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfSilence.blp
+Order=silence
+
+// D.Shield
+[A008]
+Art=ReplaceableTextures\CommandButtons\BTNDivineIntervention.blp
+Order=divineshield
+ResearchArt=ReplaceableTextures\CommandButtons\BTNDivineIntervention.blp
+Researchbuttonpos=1,0
+Unorder=undivineshield
+
+// Dispel Magic
+[A007]
+Art=ReplaceableTextures\CommandButtons\BTNChainLightning.blp
+Missileart=Abilities\Spells\Orc\LightningBolt\LightningBoltMissile.mdl
+Missilespeed=1500
+Targetart=Abilities\Weapons\Bolt\BoltImpact.mdl
+Order=chainlightning
+LightningEffect=CLPB,CLSB
+[A0M4]
+Art=ReplaceableTextures\CommandButtons\BTNUnsummonBuilding.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNMassTeleport.blp
+[A1K4]
+Art=ReplaceableTextures\CommandButtons\BTNMassTeleport.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNMassTeleport.blp
+[A1K5]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfPreservation.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStaffOfPreservation.blp
+[A1K6]
+Art=ReplaceableTextures\CommandButtons\BTNControlMagic.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNControlMagic.blp
+[A1K7]
+Art=war3mapImported\BTNShackle.blp
+Order=attributemodskill
+ResearchArt=war3mapImported\BTNShackle.blp
+[A1K8]
+Art=war3mapImported\BTNMonkMeditate.blp
+Order=attributemodskill
+ResearchArt=war3mapImported\BTNMonkMeditate.blp
+
+// MAMcarrior
+[A1K9]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+SpecialArt=Abilities\Spells\Human\Banish\BanishTarget.mdl
+Specialattach=chest
+
+// -1250 BD
+[A1KI]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+SpecialArt=Abilities\Spells\Orc\Purge\PurgeBuffTarget.mdl
+TargetArt=Abilities\Spells\Orc\Purge\PurgeBuffTarget.mdl
+Targetattach=origin
+
+// MAM Strongest and longest
+[A1KM]
+Art=ReplaceableTextures\CommandButtons\BTNCorpseExplode.blp
+Targetart=Abilities\Spells\Demon\DemonBoltImpact\DemonBoltImpact.mdl
+LightningEffect=AFOD
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\CommandButtons\BTNCorpseExplode.blp
+Researchbuttonpos=3,0
+
+// Disarming Cannons
+[A1L6]
+Art=ReplaceableTextures\CommandButtons\BTNHumanMissileUpOne.blp
+order=berserk
+Casterart=Abilities\Spells\Items\AIlm\AIlmTarget.mdl
+Effectsound=
+Buttonpos=2,2
+
+// -Armor FLAK
+[A1L8]
+// area of effect damage of destructables
+
+// Attack Speed -flak%
+[A1L9]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// divinebreath
+[A1LX]
+Art=ReplaceableTextures\CommandButtons\BTNBreathOfFrost.blp
+Animnames=spell,slam
+Buttonpos=0,2
+Missileart=Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl
+Missilespeed=1050
+Order=breathoffire
+
+// -Armor blade
+[A1JE]
+// area of effect damage of destructables
+
+// -asblade
+[A1M4]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Armor Bonus +500
+[A1MC]
+// area of effect damage of destructables
+
+// DCBD9
+[A1MM]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=
+Casterattach=origin
+
+// Riddle of Onyx
+[A1MO]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+TargetArt=
+Targetattach=
+
+// Blue Blessed Blade Aura
+[A1MW]
+Art=war3mapImported\BTNTidebringer.blp
+TargetArt=
+
+// Armor Bonus (Necro Skeleton)
+[A1N8]
+// area of effect damage of destructables
+
+// Attack Speed Bonus
+[A1N9]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Bonus Damage (Necro Skeleton)
+[A1NA]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus (Skeletal Mage)
+[A1ND]
+// area of effect damage of destructables
+
+// Armor Bonus (Golem)
+[A1NH]
+// area of effect damage of destructables
+
+// SetUnitMax - mana
+[A1NK]
+// temporary attack speed increase
+
+// BonusMod Armor +1
+[A1NL]
+// area of effect damage of destructables
+
+// BonusMod Armor +2
+[A1NM]
+// area of effect damage of destructables
+
+// BonusMod Armor +4
+[A1NN]
+// area of effect damage of destructables
+
+// BonusMod Armor +8
+[A1NO]
+// area of effect damage of destructables
+
+// BonusMod Armor +16
+[A1NP]
+// area of effect damage of destructables
+
+// BonusMod Armor +32
+[A1NQ]
+// area of effect damage of destructables
+
+// BonusMod Armor +64
+[A1NR]
+// area of effect damage of destructables
+
+// BonusMod Armor +128
+[A1NS]
+// area of effect damage of destructables
+
+// BonusMod Armor +256
+[A1NT]
+// area of effect damage of destructables
+
+// BonusMod Armor +512
+[A1NU]
+// area of effect damage of destructables
+
+// BonusMod Armor +1024
+[A1NV]
+// area of effect damage of destructables
+
+// BonusMod Armor +2048
+[A1NW]
+// area of effect damage of destructables
+
+// BonusMod Armor +4096
+[A1NX]
+// area of effect damage of destructables
+
+// BonusMod Hp regen 1
+[A1NY]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 2
+[A1NZ]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 4
+[A1O0]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 8
+[A1O1]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 16
+[A1O2]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 32
+[A1O3]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 64
+[A1O4]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 128
+[A1O5]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 256
+[A1O6]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 512
+[A1O7]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 1024
+[A1O8]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen 2048
+[A1O9]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen +4096
+[A1OA]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Damage +1
+[A1OB]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +2
+[A1OC]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +4
+[A1OD]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +8
+[A1OE]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +16
+[A1OF]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +32
+[A1OG]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +64
+[A1OH]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +128
+[A1OI]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +256
+[A1OJ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +512
+[A1OK]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +1024
+[A1OL]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +2048
+[A1OM]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +4096
+[A1ON]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +8192
+[A1OO]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +16384
+[A1OP]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Damage +32768
+[A1OQ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Armor +8192
+[A1OR]
+// area of effect damage of destructables
+
+// BonusMod Armor +16384
+[A1OS]
+// area of effect damage of destructables
+
+// BonusMod Armor +32768
+[A1OT]
+// area of effect damage of destructables
+
+// BonusMod Hp regen +8192
+[A1OU]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen +16384
+[A1OV]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// BonusMod Hp regen +32768
+[A1OW]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Attack Speed bonus (Vampire control)
+[A1P8]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Bonus Damage (Vampire Control)
+[A1P9]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Armor (Vampire Control)
+[A1PA]
+// area of effect damage of destructables
+
+// A+ R-
+[A1PW]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// I+ R-
+[A1PX]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// S+ R-
+[A1PY]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Targetart=Abilities\Spells\Items\AIim\AIimTarget.mdl
+Targetattach=origin
+
+// +5000 Bonus Damage
+[A1QC]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// -Armor mura
+[A1QI]
+// area of effect damage of destructables
+
+// +Armor mura
+[A1QJ]
+// area of effect damage of destructables
+
+// -Armor mura perm
+[A1QK]
+// area of effect damage of destructables
+
+// -as mura
+[A1QL]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// -BD mura
+[A1QM]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// illuswmit
+[A1PO]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+Targetart=
+Targetattach=
+
+// Heavy Armor bonus 2
+[A1Q7]
+// area of effect damage of destructables
+
+// Heavy Armor bonus
+[A1Q8]
+// area of effect damage of destructables
+
+// Curse of zuljin -armor
+[A1QV]
+// area of effect damage of destructables
+
+// curse of zul'jin -damage
+[A1QW]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+Targetattach=origin
+
+// LC healer damage buff
+[A1QZ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// LC healer armor buff
+[A1R0]
+// area of effect damage of destructables
+
+// LC healer mana buff
+[A1R2]
+// temporary attack speed increase
+
+// LC healer as buff
+[A1P3]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Broken attack speed bonus
+[A1R7]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Broken +armor
+[A1RA]
+// area of effect damage of destructables
+[A1RE]
+TargetArt=Abilities\Spells\NightElf\Immolation\ImmolationDamage.mdl
+Targetattach=origin
+[A1RR]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Buttonpos=1,2
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=1,0
+
+// Demonic Aura
+[A1RS]
+Art=war3mapImported\PASDemonic3.blp
+Targetart=
+Targetattach=
+Buttonpos=1,2
+[A1RT]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Buttonpos=2,2
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=2,0
+[A1RX]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Buttonpos=0,2
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+[A1RU]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Buttonpos=0,2
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=3,0
+
+// Demon form attack speed
+[A1RP]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// Item Granite Golem Summon
+[A1QX]
+Art=ReplaceableTextures\CommandButtons\BTNRockGolem.blp
+Targetart=Abilities\Spells\Orc\FeralSpirit\feralspirittarget.mdl
+
+// Item Reincarnation (100000 life)
+[A1S2]
+Art=ReplaceableTextures\CommandButtons\BTNAnkh.blp
+Effectart=Abilities\Spells\Orc\Reincarnation\ReincarnationTarget.mdl
+
+// +500 damage
+[A1SB]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Casterart=
+Casterattach=origin
+
+// Death pact
+[A1SD]
+// area of effect damage of destructables
+[A1SE]
+Art=war3mapImported\BTNDER_Weapon_Forge.blp
+Buttonpos=3,1
+Order=attributemodskill
+ResearchArt=war3mapImported\BTNDER_Weapon_Forge.blp
+Researchbuttonpos=3,1
+
+// DSA2
+[A1SK]
+Art=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Targetart=Abilities\Spells\Human\DevotionAura\DevotionAura.mdl
+Targetattach=origin
+Buttonpos=3,2
+ResearchArt=ReplaceableTextures\PassiveButtons\PASBTNGenericSpellImmunity.blp
+Researchbuttonpos=3,0
+
+// Rege HP800
+[A1U2]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Tp God skill tome
+[A1U4]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+Areaeffectart=Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl
+Casterart=Abilities\Spells\Human\MassTeleport\MassTeleportCaster.mdl
+Specialart=Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+Buttonpos=1,1
+[A1UH]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Buttonpos=3,1
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=3,1
+TargetArt=Abilities\Spells\Orc\TrollBerserk\HeadhunterWEAPONSLeft.mdl,Abilities\Spells\Orc\TrollBerserk\HeadhunterWEAPONSRight.mdl
+Targetattachcount=1
+Targetattach=weapon,right
+[A1UI]
+Art=ReplaceableTextures\PassiveButtons\PASBTNStatUp.blp
+Buttonpos=2,0
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNStatUp.blp
+Researchbuttonpos=2,0
+
+// Attack Speed -50%
+[A1UN]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// En +800 Bonus Damage
+[A1UO]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// -Armor orbtest
+[A1US]
+TargetArt=Abilities\Spells\Items\OrbCorruption\OrbCorruptionSpecialArt.mdl
+Targetattach=chest
+// area of effect damage of destructables
+
+// +222 Armor
+[A1UT]
+// area of effect damage of destructables
+
+// 1800 damage claws
+[A1UU]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage +120
+[A1UW]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor bonys +80
+[A1UX]
+// area of effect damage of destructables
+
+// Item Mana Bonus 4000
+[A1UY]
+// temporary attack speed increase
+
+// DDS System
+[A1V2]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+
+// Recipes
+[A1V5]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+[A1VB]
+Art=ReplaceableTextures\CommandButtons\BTNSearingArrowsOn.blp
+Order=attributemodskill
+ResearchArt=ReplaceableTextures\CommandButtons\BTNSearingArrows.blp
+[A1VC]
+TargetArt=war3mapImported\SantaHat.mdx
+Targetattach=head
+
+// Mission codes
+[A1VP]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollGreen.blp
+
+// Armor Bonus -600
+[A1W1]
+// area of effect damage of destructables
+
+// -5500 Bonus Damage
+[A1W2]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Armor Bonus -1000
+[A1WH]
+// area of effect damage of destructables
+
+// +100 Bonus Damage
+[A1WI]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Blessed Horn Aura
+[A1WN]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyAura.blp
+Targetart=
+Targetattach=
+
+// Armor Bonus Grom
+[A1WY]
+// area of effect damage of destructables
+
+// Gem Skills
+[A1XB]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Buttonpos=3,0
+[A1S7]
+TargetArt=Abilities\Spells\Items\OrbDarkness\OrbDarkness.mdl
+Targetattach=overhead
+Targetattach2=origin
+Targetattach1=chest
+Targetattach3=overhead
+Targetattachcount=2
+[A1Y3]
+Art=war3mapImported\BTN_CR_Holylight.blp
+Buttonpos=3,1
+Order=attributemodskill
+ResearchArt=war3mapImported\BTN_CR_Holylight.blp
+Researchbuttonpos=3,1
+[A1Y6]
+TargetArt=war3mapImported\ArcaneFlameYellow.mdx
+Targetattach=origin
+
+// BonusMod Armor -65536
+[A1YC]
+// area of effect damage of destructables
+
+// BonusMod Damage -65536
+[A1YD]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// BonusMod Hp regen -65536
+[A1YE]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Spell Damage Reduction 25
+[A04R]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 60
+[A04S]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 30
+[A04T]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 40
+[A06J]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 86
+[A0E6]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 94
+[A0EC]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 50
+[A0H2]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 70
+[A0H8]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 20
+[A0VE]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 05
+[A0VF]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 80
+[A0WU]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 75
+[A12S]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 10
+[A1UC]
+// area of effect damage of destructables
+
+// Amp Item Spell Amplify
+[A0U4]
+// area of effect damage of destructables
+
+// Jaina Spell Amplify
+[A0U8]
+TargetArt=Abilities\Spells\NightElf\FaerieDragonInvis\FaerieDragon_Invis.mdl
+Targetattach=overhead
+// area of effect damage of destructables
+
+// LC healer Spell damage reduction buff
+[A1R3]
+// area of effect damage of destructables
+
+// Spell Damage Reduction LC Swordman
+[A1QR]
+// area of effect damage of destructables
+
+// Spell Amplify Curse of Zul'jin
+[A1QU]
+TargetArt=Abilities\Spells\Orc\Purge\PurgeBuffTarget.mdl
+Targetattach=overhead
+// area of effect damage of destructables
+
+// Low quality block check
+[A1RN]
+// area of effect damage of destructables
+
+// 20% to block 28 dmg
+[A004]
+// area of effect damage of destructables
+
+// 60% to block 20 dmg
+[A00F]
+// area of effect damage of destructables
+
+// Quality Armor block check
+[A1Y4]
+// area of effect damage of destructables
+
+// 70% to block 26 dmg
+[A02C]
+// area of effect damage of destructables
+
+// Warrior armor reduce check
+[A09Y]
+// area of effect damage of destructables
+
+// 75% to block 40 dmg
+[A01T]
+// area of effect damage of destructables
+
+// 15% to block 320 dmg
+[A0E3]
+// area of effect damage of destructables
+
+// 40% to block 65 dmg
+[A0PQ]
+// area of effect damage of destructables
+
+// 50% to block 650 dmg
+[A0UD]
+// area of effect damage of destructables
+
+// 20% to block 260 dmg
+[A0T4]
+// area of effect damage of destructables
+
+// Divine armor Reduce
+[A0Z1]
+// area of effect damage of destructables
+
+// 50% to block 90 dmg
+[A0ZA]
+// area of effect damage of destructables
+
+// 50% to block 2000 dmg
+[A1HP]
+// area of effect damage of destructables
+
+// 30% to block 40 dmg
+[A0VO]
+// area of effect damage of destructables
+
+// 32% to block 80 dmg
+[A0VP]
+// area of effect damage of destructables
+
+// 35% to block 110 dmg
+[A0VQ]
+// area of effect damage of destructables
+
+// 40% to block 225 dmg
+[A0VR]
+// area of effect damage of destructables
+
+// 35% to block 315 dmg
+[A0VS]
+// area of effect damage of destructables
+
+// 33% to block 170 dmg
+[A0VT]
+// area of effect damage of destructables
+
+// 45% to block 395 dmg
+[A0VU]
+// area of effect damage of destructables
+
+// 60% to block 600 dmg
+[A0VV]
+// area of effect damage of destructables
+
+// 33% to block 800 dmg
+[A0VW]
+// area of effect damage of destructables
+
+// 50% to block 650 dmg
+[A0VX]
+// area of effect damage of destructables
+
+// Pure Damage Test
+[A028]
+// area of effect damage of destructables
+
+// Ring of talent Life Steal
+[A05A]
+// area of effect damage of destructables
+
+// Water Mage Illusion
+[A0A7]
+// area of effect damage of destructables
+
+// Healing test
+[A0AB]
+// area of effect damage of destructables
+
+// Spell Damage Reduction 45
+[A0AC]
+// area of effect damage of destructables
+
+// Paladin Ult Damage
+[A0CJ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+TargetArt=Abilities\Spells\Orc\Shockwave\ShockwaveMissile.mdl
+Targetattach=hand,right
+
+// Cleave and other
+[A0CL]
+// area of effect damage of destructables
+[A0P9]
+TargetArt=war3mapImported\Burning Rage Red.mdx
+Targetattach=overhead
+
+// Attack Speed bonus (Berserker Rage)
+[A0Y3]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+TargetArt=war3mapImported\Burning Rage Orange.mdx
+Targetattach=overhead
+
+// Item move speed Max MS
+[A0ZF]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// Spirit Shield Ability
+[A0GU]
+TargetArt=Abilities\Spells\Orc\SpiritLink\SpiritLinkTarget.mdl
+Targetattach=chest
+// area of effect damage of destructables
+
+// 42% cleave 320 AOE
+[A04L]
+// area of effect damage of destructables
+
+// 25% cleave 200 AOE
+[A0OT]
+// area of effect damage of destructables
+
+// 8% cleave 750 AOE
+[A0UW]
+// area of effect damage of destructables
+
+// 83% cleave 750 AOE
+[A0VC]
+// area of effect damage of destructables
+
+// Admiral Cleave
+[A0I9]
+// area of effect damage of destructables
+
+// 30% cleave 300 AOE
+[A0X0]
+// area of effect damage of destructables
+
+// 38% cleave 320 AOE
+[A0X1]
+// area of effect damage of destructables
+
+// 50% cleave 400 AOE
+[A0X2]
+// area of effect damage of destructables
+
+// 55% cleave 500 AOE
+[A1UL]
+// area of effect damage of destructables
+
+// Satyr Damage Steal -
+[A0LQ]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Satyr Damage Steal +
+[A0LP]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Mirror Image Extra abilities
+[A020]
+// area of effect damage of destructables
+
+// Bonus Damage
+[A021]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Life Steal Vile
+[A03M]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Bonus Damage Equipment upgrade
+[A081]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Bonus Damage Archer
+[A04D]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Berserker Feel my Pain
+[A083]
+// area of effect damage of destructables
+
+// Sinister Edge check
+[A084]
+// area of effect damage of destructables
+
+// Present Skill
+[A085]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfTownPortal.blp
+Targetart=
+Targetattach=
+
+// Death Pact Ally skill
+[A0M9]
+SpecialArt=Abilities\Spells\Items\AIob\AIobSpecialArt.mdl
+Specialattach=chest
+TargetArt=Abilities\Spells\Items\AIob\AIobTarget.mdl
+Targetattach=weapon
+// area of effect damage of destructables
+
+// Life Steal Leeching Sword
+[A0MC]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+Targetart=
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Missileart=Abilities\Spells\Items\WandOfNeutralization\NeutralizationMissile.mdl
+
+// Spell Damage Reduction 65
+[A0ME]
+// area of effect damage of destructables
+
+// Bonus damage Maiev
+[A089]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+[A0MF]
+TargetArt=war3mapImported\Burning Rage Orange.mdx
+Targetattach=overhead
+
+// Bonus Damage
+[A0MG]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+Targetattach=overhead
+TargetArt=war3mapImported\Burning Rage Red.mdx
+
+// Spell Damage Reduction 50
+[A0MK]
+TargetArt=war3mapImported\NatureBlessing.mdx
+Targetattach=origin
+// area of effect damage of destructables
+
+// LC Viking debuff
+[A0TX]
+TargetArt=Objects\Spawnmodels\Human\HumanBlood\BloodElfSpellThiefBlood.mdl
+Targetattach=origin
+// area of effect damage of destructables
+
+// Defensive Deception illusion
+[A0Y2]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+Targetart=
+Targetattach=
+[A116]
+Art=ReplaceableTextures\CommandButtons\BTNSpellBookBLS.blp
+
+// SS Shield
+[B030]
+Buffart=war3mapImported\BTNHolyShield.BLP
+Targetart=Abilities\Spells\Items\SpellShieldAmulet\SpellShieldCaster.mdl
+Targetattach=origin
+[B02G]
+Spelldetail=1
+Buffart=ReplaceableTextures\CommandButtons\BTNFragmentationBombs.blp
+Targetart=
+Targetattach=
+[B08T]
+Buffart=war3mapImported\BTNBreakingArmor.BLP
+[B0A1]
+Buffart=ReplaceableTextures\CommandButtons\BTNWand.blp
+Specialart=Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+[B0A2]
+Buffart=ReplaceableTextures\CommandButtons\BTNWand.blp
+Specialart=Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+[B0AA]
+Buffart=ReplaceableTextures\CommandButtons\BTNWand.blp
+Specialart=Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+[B016]
+Buffart=ReplaceableTextures\CommandButtons\BTNWand.blp
+Specialart=Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+

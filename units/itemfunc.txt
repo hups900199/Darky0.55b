@@ -1,0 +1,3872 @@
+//townhall tier 1 dependency
+[TWN1]
+DependencyOr=htow,ogre,etol,unpl
+XPFactor=0
+
+//townhall teir 2 dependency
+[TWN2]
+DependencyOr=hkee,ostr,etoa,unp1
+XPFactor=0
+
+//townhall teir 3 dependency
+[TWN3]
+DependencyOr=hcas,ofrt,etoe,unp2
+XPFactor=0
+
+//altar dependency
+[TALT]
+DependencyOr=halt,oalt,eate,uaod
+
+[amrc]
+Art=ReplaceableTextures\CommandButtons\BTNAmulet.blp
+Buttonpos=1,0
+
+[ankh]
+Art=ReplaceableTextures\CommandButtons\BTNAnkh.blp
+
+[belv]
+Art=ReplaceableTextures\CommandButtons\BTNBoots.blp
+
+[bgst]
+Art=ReplaceableTextures\CommandButtons\BTNBelt.blp
+
+[bspd]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+[ciri]
+Art=ReplaceableTextures\CommandButtons\BTNRobeOfTheMagi.blp
+Buttonpos=3,1
+
+[ckng]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+[clsd]
+Art=ReplaceableTextures\CommandButtons\BTNCloak.blp
+
+[crys]
+Art=ReplaceableTextures\CommandButtons\BTNCrystalBall.blp
+
+[nflg]
+Art=ReplaceableTextures\CommandButtons\BTNNightElfCaptureFlag.blp
+
+[oflg]
+Art=ReplaceableTextures\CommandButtons\BTNOrcCaptureFlag.blp
+Buttonpos=0,1
+
+[gemt]
+Art=ReplaceableTextures\CommandButtons\BTNGem.blp
+Buttonpos=3,1
+
+[soul]
+Art=ReplaceableTextures\CommandButtons\BTNUsedSoulGem.blp
+
+[mdpb]
+Art=ReplaceableTextures\CommandButtons\BTNPebble.blp
+
+// slippers of agility +2
+[rag1]
+Art=ReplaceableTextures\CommandButtons\BTNSlippersOfAgility.blp
+
+// claws of attack +3
+
+[rin1]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+
+// ring of protection +2
+[rde1]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+// ring of protection +3
+[rde2]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+// ring of protection +4
+[rde3]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+[rst1]
+Art=ReplaceableTextures\CommandButtons\BTNGauntletsOfOgrePower.blp
+
+//orb of darkness
+
+[ofro]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfFrost.blp
+
+[oli2]
+Buttonpos=0,2
+Requires=ofrt
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfLightning.blp
+
+[oven]
+Buttonpos=0,2
+Requires=etoe
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfVenom.blp
+
+[ocor]
+Buttonpos=0,2
+Requires=unp2
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+
+// potion of divinity
+
+[phea]
+Requires=TWN2
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreenSmall.blp
+
+[pghe]
+Art=ReplaceableTextures\CommandButtons\BTNPotionGreen.blp
+
+[pman]
+Requires=TWN2
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNPotionBlueSmall.blp
+
+[pgma]
+Art=ReplaceableTextures\CommandButtons\BTNPotionBlueBig.blp
+
+[pnvu]
+Art=ReplaceableTextures\CommandButtons\BTNGreaterInvulneralbility.blp
+Buttonpos=3,1
+
+[pnvl]
+Buttonpos=3,0
+Art=ReplaceableTextures\CommandButtons\BTNLesserInvulneralbility.blp
+
+[pspd]
+Art=ReplaceableTextures\CommandButtons\BTNPotionRed.blp
+
+[rlif]
+Art=ReplaceableTextures\CommandButtons\BTNRingSkull.blp
+
+[rwiz]
+Buttonpos=2,0
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+[shea]
+Requires=unp2
+Buttonpos=1,2
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfTownPortal.blp
+
+[sman]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfProtection.blp
+
+[stwp]
+Requires=
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNScrollUber.blp
+
+[texp]
+Art=ReplaceableTextures\CommandButtons\BTNTomeBrown.blp
+
+[tkno]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+
+[will]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+
+[wneg]
+ButtonPos=3,1
+Requires=unp1
+Art=ReplaceableTextures\CommandButtons\BTNWandSkull.blp
+
+[fgrd]
+Art=ReplaceableTextures\CommandButtons\BTNRedDragon.blp
+
+[fgrg]
+Art=ReplaceableTextures\CommandButtons\BTNRockGolem.blp
+Buttonpos=3,1
+
+[fgdg]
+Art=ReplaceableTextures\CommandButtons\BTNDoomGuard.blp
+
+[fgfh]
+Art=ReplaceableTextures\CommandButtons\BTNFelHound.blp
+
+[fgsk]
+Art=ReplaceableTextures\CommandButtons\BTNBookOfTheDead.blp
+
+[modt]
+Art=ReplaceableTextures\CommandButtons\BTNMaskOfDeath.blp
+
+// scroll of animate dead
+[sror]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollGreen.blp
+
+[wswd]
+Art=ReplaceableTextures\CommandButtons\BTNSentryWard.blp
+
+[wlsd]
+Art=ReplaceableTextures\CommandButtons\BTNStarWand.blp
+
+[wcyc]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfCyclone.blp
+
+//wand of necromancy
+[rnec]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+
+// antibody potion
+[pams]
+Requires=etoe
+Buttonpos=1,2
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyPotion.blp
+
+// cloak of flames
+[clfm]
+Art=ReplaceableTextures\CommandButtons\BTNCloakOfFlames.blp
+
+// talisman of evasion
+[evtl]
+Art=ReplaceableTextures\CommandButtons\BTNTalisman.blp
+
+[lhst]
+Art=ReplaceableTextures\CommandButtons\BTNLionHorn.blp
+Buttonpos=1,2
+
+// khadgar's pipe of insight
+[sbch]
+Art=ReplaceableTextures\CommandButtons\BTNBoneChimes.blp
+
+// alleria's flute of accuracy
+[afac]
+Art=war3mapImported\BTNSamuraiSword.blp
+
+// ancient janggo of endurance
+[lgdh]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfDoom.blp
+
+// hood of cunning
+[hcun]
+Art=ReplaceableTextures\CommandButtons\BTNHoodOfCunning.blp
+
+// medallion of courage
+[hval]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedMoonArmor.blp
+Buttonpos=1,1
+
+// circlet of nobility
+[cnob]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNCirclet.blp
+
+// periapt of vitality
+[prvt]
+Buttonpos=1,0
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt.blp
+
+// tome of greater experience
+[tgxp]
+Art=ReplaceableTextures\CommandButtons\BTNManual3.blp
+
+// mana stone
+[mnst]
+Art=ReplaceableTextures\CommandButtons\BTNManaStone.blp
+
+// health stone
+[hlst]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+[tpow]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+
+[tst2]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+[tin2]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+[tdx2]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// ring of protection +1
+[rat6]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// claws of attack +9
+[rat9]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// claws of attack +12
+[ratc]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// claws of attack +15
+[manh]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// pendant of mana
+[penr]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfEnergy.blp
+
+// gloves of celerity
+[gcel]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// the ledger, 'null' quest item
+[totw]
+Art=ReplaceableTextures\CommandButtons\BTNStone.blp
+
+[kybl]
+Art=ReplaceableTextures\CommandButtons\BTNBloodKey.blp
+
+[kygh]
+Art=ReplaceableTextures\CommandButtons\BTNGhostKey.blp
+
+[kymn]
+Art=ReplaceableTextures\CommandButtons\BTNMoonKey.blp
+
+[sprn]
+Art=ReplaceableTextures\CommandButtons\BTNRingVioletSpider.blp
+Buttonpos=2,0
+
+// Totem of Might
+[tmmt]
+Art=ReplaceableTextures\PassiveButtons\PASBTNPoisonSting.blp
+
+// Ancient Figurine
+[anfg]
+Art=ReplaceableTextures\CommandButtons\BTNClayFigurine.blp
+Buttonpos=3,0
+
+// Lion's Ring
+[iwbr]
+Art=ReplaceableTextures\CommandButtons\BTNNatureTouchGrow.blp
+Buttonpos=3,0
+
+// Jade Ring
+[hslv]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNHealingSalve.blp
+
+// Clarity Potion
+[pclr]
+Buttonpos=0,0
+Requires=etoe
+Art=ReplaceableTextures\CommandButtons\BTNPotionOfClarity.blp
+
+// Lesser Clarity Potion
+[plcl]
+Buttonpos=1,0
+Art=ReplaceableTextures\CommandButtons\BTNLesserClarityPotion.blp
+
+// Minor Rejuvenation Potion
+[rej2]
+Art=ReplaceableTextures\CommandButtons\BTNLesserRejuvPotion.blp
+Buttonpos=0,1
+
+// Rejuvenation Potion
+[rej3]
+Art=ReplaceableTextures\CommandButtons\BTNRejuvPotion.blp
+Buttonpos=1,1
+
+// Greater Rejuvenation Potion
+[rej4]
+Art=ReplaceableTextures\CommandButtons\BTNGreaterRejuvPotion.blp
+Buttonpos=2,1
+
+// Lesser Rejuvenation Scroll
+[gold]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// Bundle of Lumber
+[wneu]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfNeutralization.blp
+
+// Spider Silk
+[skul]
+ButtonPos=2,0
+Requires=ugrv
+Art=ReplaceableTextures\CommandButtons\BTNSacrificialSkull.blp
+
+// Moonstone
+[moon]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNMoonStone.blp
+
+// Vampiric Potion
+[brac]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+Buttonpos=3,0
+
+// Wand of Mana Steal
+[woms]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfManaSteal.blp
+
+// Tiny Castle
+[tcas]
+Requires=hcas
+Art=war3mapImported\BTNFrostFireSwords.blp
+
+// Tiny Scout Tower
+[tgrh]
+Buttonpos=1,2
+Requires=ofrt
+Art=ReplaceableTextures\CommandButtons\BTNGreathall.blp
+
+// Wand of Shadowsight
+[wshs]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfShadowSight.blp
+
+// Tome of Retraining
+[tret]
+Buttonpos=0,2
+Art=ReplaceableTextures\CommandButtons\BTNTomeOfRetraining.blp
+
+// Staff of Teleportation
+[stel]
+Buttonpos=3,1
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+
+// Staff of Preservation
+[spre]
+Buttonpos=3,1
+Requires=etoa
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfPreservation.blp
+
+// Mechanical Critter
+[shas]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfHaste.blp
+
+// Dust of Appearance
+[dust]
+Art=ReplaceableTextures\CommandButtons\BTNDustOfAppearance.blp
+Buttonpos=3,0
+
+// Orb of Slow
+[sneg]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfNegation.blp
+
+// Rune of Rebirth
+[dsum]
+Art=ReplaceableTextures\CommandButtons\BTNDarkSummoning.blp
+
+//startvarious runes and glyphs
+//glyph of omniscience
+[sor1]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfDarkness.blp
+
+[sor2]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfDarkness.blp
+
+[ram2]
+Art=ReplaceableTextures\CommandButtons\BTNRingJadeFalcon.blp
+
+[ram4]
+Art=ReplaceableTextures\CommandButtons\BTNRingJadeFalcon.blp
+
+// shamanic totem
+
+[thle]
+Art=ReplaceableTextures\CommandButtons\BTNThunderLizardEgg.blp
+
+// secret level powerup
+
+[stre]
+Art=ReplaceableTextures\CommandButtons\BTNWandSkull.blp
+Buttonpos=0,2
+
+// holy relic
+[hbth]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyAura.blp
+
+// Bladebane Armor
+[rugt]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedUnholyStrength.blp
+
+// Firehand Gauntlets
+[frhg]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedUnholyStrength.blp
+Buttonpos=0,1
+
+// Gloves of Spell Mastery
+[arsc]
+Art=ReplaceableTextures\CommandButtons\BTNBansheeAdept.blp
+Buttonpos=1,2
+
+// scroll of the unholy legion
+[scul]
+Art=ReplaceableTextures\CommandButtons\BTNBansheeMaster.blp
+Buttonpos=2,2
+
+// tome of sacrifices
+[tmsc]
+Art=ReplaceableTextures\CommandButtons\BTNNecromancerAdept.blp
+Buttonpos=0,1
+
+// drek'thar's spellbook
+[arsh]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp
+Buttonpos=2,2
+
+// Shield of the Deathlord
+[shhn]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpThree.blp
+
+// Enchanted Shield
+[stpg]
+Art=ReplaceableTextures\CommandButtons\BTNPenguin.blp
+
+// Shimmerglaze Roast
+[bfhr]
+Art=ReplaceableTextures\CommandButtons\BTNPhilosophersStone.blp
+
+// Celestial Orb of Souls
+[I0IA]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Buttonpos=3,0
+
+// Tome of Strength +500
+[I0I9]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Buttonpos=1,0
+
+// Tome of Intelligence +400
+[I0I8]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Buttonpos=2,0
+
+// Tome of Agility +500
+[I0I7]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// |CFF00FFFFMjolnir|r
+[I0I6]
+Art=war3mapImported\BTNBattlePriestsHammer.blp
+
+// |CFF00FFFFEye of Horus|r
+[I0I5]
+Art=ReplaceableTextures\CommandButtons\BTNCharm.blp
+
+// |CFF00FFFFThoth's Mind|r
+[I0I4]
+Art=war3mapImported\BTNWaterOrb.blp
+
+// |c00000000Spear of Gods|r
+[I0I3]
+Art=ReplaceableTextures\CommandButtons\BTNVorpalBlades.blp
+
+// |cffff0000Dragon Plate Armor|r
+[I0I2]
+Art=war3mapImported\PASMetal Armor.blp
+
+// |CFF00FFFFPrometheus Staff|r
+[I0I1]
+Art=ReplaceableTextures\CommandButtons\BTNScepterOfMastery.blp
+
+// |CFF00FFFFNephthys Wing|r
+[I0I0]
+Art=war3mapImported\BTNCRFrostShock.blp
+
+// |CFF0042FFHoly Veteran Armor|r
+[I0HZ]
+Art=ReplaceableTextures\CommandButtons\BTNHoly Armor.blp
+
+// |c00000000The Pulsar|r
+[I0HY]
+Art=war3mapImported\BTNDivineArmorNew.blp
+
+// |CFF00FFFFThe Infinity|r
+[I0HX]
+Art=ReplaceableTextures\CommandButtons\BTNArmoredFist.blp
+
+// |CFF00FFFFHeart of Osiris|r
+[I0HW]
+Art=ReplaceableTextures\CommandButtons\BTNPhilosophersStone.blp
+
+// |c00000000Sharis Starfire|r
+[I0HV]
+Art=ReplaceableTextures\CommandButtons\BTNBlink.blp
+
+// |c00000000Black Deity|r
+[I0HU]
+Art=war3mapImported\BTNEmpty Amulet.blp
+
+// |cffff0000Hell Scythe|r
+[I0HT]
+Art=war3mapImported\BTNScytheofElune.blp
+Buttonpos=3,0
+
+// |c00000000Fearless|r
+[I0HS]
+Art=war3mapImported\BTNLichKing.blp
+
+// |c00000000Heavens|r
+[I0HR]
+Art=war3mapImported\BTNPathfinder 03.blp
+
+// |c00000000Archangel|r
+[I0HQ]
+Art=war3mapImported\BTNLancelot_Shield.blp
+
+// |c00000000God Slayer|r
+[I0HP]
+Art=war3mapImported\BTNNobleSword.blp
+
+// |CFF00FFFFDarius Helmet|r
+[I0HO]
+Art=war3mapImported\BTNMagic_Bronze_Armour.blp
+
+// |CFF00FFFFBeyond|r
+[I0HN]
+Art=war3mapImported\BTNAngelicShield.blp
+
+// |CFF00FFFFScepter of Chaos|r
+[I0HM]
+Art=war3mapImported\BTNOrbWand.BLP
+
+// |CFF00FFFFRoyalty|r
+[I0HL]
+Art=war3mapImported\BTNrapier.blp
+
+// |cffffcc00Silver|r
+[I0HK]
+Art=war3mapImported\BTNINV_Weapon_Halberd_08.blp
+
+// |cffffcc00Dominici Shield|r
+[I0HJ]
+Art=war3mapImported\BTNShieldElvenBearMark.BLP
+
+// |cffffcc00Liberty Boots|r
+[I0HI]
+Art=war3mapImported\BTNBootsOfMedivh.blp
+
+// |cffffcc00Absolution Ring|r
+[I0HH]
+Art=war3mapImported\BTNPaladin_Signet_Ring.blp
+
+// |cffffcc00Cleanse Rod|r
+[I0HG]
+Art=war3mapImported\BTNGD_IceWand.blp
+Buttonpos=2,0
+
+// Claws of Greed
+[I0HF]
+Art=ReplaceableTextures\CommandButtons\BTNShamanAdept.blp
+
+// Bandit Armor
+[I0HE]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedMoonArmor.blp
+
+// Tome of Experience +3000
+[I0HD]
+Art=ReplaceableTextures\CommandButtons\BTNTomeBrown.blp
+
+// Tome of Agility +6
+[I0HC]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// Tome of Intelligence +8
+[I0HB]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// Tome of Strength +5
+[I0HA]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// |CFF00FFFFHoly Grail|r
+[I0H9]
+Art=war3mapImported\BTNBless.blp
+
+// |CFF00FFFFGolden Idol|r
+[I0H8]
+Art=war3mapImported\BTNGoldenIdol.blp
+
+// |CFF00FFFFSoul Reaper|r
+[I0H7]
+Art=war3mapImported\BTNReapersWeapon.blp
+
+// |CFF00FFFFCelestial Armor|r
+[I0H6]
+Art=war3mapImported\BTNArmor Clad.blp
+
+// |CFF00FFFFLeonic Madness|r
+[I0H5]
+Art=ReplaceableTextures\CommandButtons\BTNRedDragonDevour.blp
+
+// |CFF00FFFFGiga Heart|r
+[I0H4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyPotion.blp
+
+// |CFF00FFFFBlessing Scope|r
+[I0H3]
+Art=ReplaceableTextures\CommandButtons\BTNTelescope.blp
+
+// |CFF00FFFFHowwll|r
+[I0H2]
+Art=ReplaceableTextures\CommandButtons\BTNSirenAdept.blp
+
+// |cffff8c00Require |n-Deadly Lance  |n-Ring of Strength|n-Ring of Agility|r|n|n
+[I0H1]
+Art=war3mapImported\BTNINV_Weapon_Bow_08.blp
+
+// |cffff8c00Require |n-Warlock Staff  |n-Ring of Intelligence  |n-Quality Armor|r|n|n
+[I0H0]
+Art=war3mapImported\BTNMage 01.blp
+
+// |cffff8c00Require |n-Talisman of The Wild  |n-Shield of Iron  |n-Heavy Helm|r|n|n
+[I0GZ]
+Art=war3mapImported\BTNSunArmor.blp
+
+// SIDMPP
+[I0GY]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// HT 100
+[I0GX]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// HT 800
+[I0GW]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// HT 280
+[I0GV]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// |CFF0042FFHoly|r
+[I0GU]
+Art=war3mapImported\BTNMage 02.blp
+
+// |cffffcc00Divine Staff|r
+[I0GT]
+Art=war3mapImported\BTNMage 01.blp
+
+// Blessed Staff
+[I0GS]
+Art=war3mapImported\BTNMage 01.blp
+Buttonpos=3,0
+
+// |CFF0042FFAzaran Locksley|r
+[I0GR]
+Art=war3mapImported\BTNFireBow.blp
+
+// |cffffcc00Locksley|r
+[I0GQ]
+Art=war3mapImported\BTNINV_Weapon_Bow_08.blp
+
+// Holy Bow
+[I0GP]
+Art=war3mapImported\BTNINV_Weapon_Bow_08.blp
+Buttonpos=1,0
+
+// |CFF0042FFSacred|r
+[I0GO]
+Art=war3mapImported\BTNAdvencedSunArmor.blp
+
+// |cffffcc00Brigandine|r
+[I0GN]
+Art=war3mapImported\BTNImprovedSunArmor.blp
+
+// Holy Defense
+[I0GM]
+Art=war3mapImported\BTNSunArmor.blp
+Buttonpos=2,0
+
+// |cffffcc00NBGods Atom|r
+[I0GL]
+Art=war3mapImported\BTNHoly Stone.blp
+
+// |cffffcc00Assassin Cutter|r (lvl |cffffcc004|r)
+[I0GK]
+Art=war3mapImported\BTNDagger.blp
+Buttonpos=3,0
+
+// |cffffcc00Assassin|r (lvl |cffffcc005|r)
+[I0GJ]
+Art=war3mapImported\BTNDagger.blp
+Buttonpos=0,1
+
+// Assassin Edge (lvl |cffffcc003|r)
+[I0GI]
+Art=war3mapImported\BTNDagger.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Cleverness Texts|n-Khadgar's Gem of the Energy|n-Talisman of The Wild|r|n|n
+[I0GH]
+Art=war3mapImported\BTNBK_Red_Book.blp
+
+// |CFF0042FFRing of Talent|r
+[I0GG]
+Art=war3mapImported\BTNIrongRingUPG2.blp
+
+// |CFF00FFFFGem of the End|r
+[I0GF]
+Art=war3mapImported\BTNINV_Misc_Gem_Opal_01.blp
+
+// |cffffcc00God Skill Tome|r
+[I0GE]
+Art=war3mapImported\BTNBK_Red_Book.blp
+Buttonpos=3,0
+
+// |c00000000Nirvana|r
+[I0GD]
+Art=war3mapImported\BTNArcaneStaff.blp
+
+// |CFF00FFFFDragkur|r
+[I0GC]
+Art=war3mapImported\BTNEnchantWeaponGreen.blp
+
+// |CFF0042FFDragkur|r
+[I0GB]
+Art=war3mapImported\BTNEnchantWeaponGreen.blp
+
+// |CFF0042FFDragkur|r
+[I0GA]
+Art=war3mapImported\BTNEnchantWeaponBlue.blp
+
+// |cffffcc00Dragkur|r
+[I0G9]
+Art=war3mapImported\BTNEnchantWeaponBlue.blp
+
+// |cffffcc00Dragkur|r
+[I0G8]
+Art=war3mapImported\BTNINV_Weapon_Halberd_04.blp
+
+// Dragkur
+[I0G7]
+Art=war3mapImported\BTNINV_Weapon_Halberd_04.blp
+
+// DCBD
+[I0G6]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// SE TM-
+[I0G5]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// SE TM+
+[I0G4]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// |CFF0042FFSinister Edge|r
+[I0G3]
+Art=war3mapImported\BTNTier2 Sword.blp
+
+// |CFF00FFFFTruth|r
+[I0G2]
+Art=war3mapImported\BTNNatureAmulet.blp
+
+// |CFF0042FFDemonic Fangs|r
+[I0G1]
+Art=ReplaceableTextures\CommandButtons\BTNDevour.blp
+
+// |CFF0042FFCharm of the holy strength|r
+[I0G0]
+Art=ReplaceableTextures\CommandButtons\BTNCallToArms.blp
+
+// |cffffcc00The Legacy|r
+[I0FZ]
+Art=war3mapImported\BTNINV_Misc_Cape_12.blp
+
+// |CFF0042FFMithril Glaive|r
+[I0FY]
+Art=ReplaceableTextures\CommandButtons\BTNUpgradeMoonGlaive.blp
+
+// |CFF20C000Divine Gloves|r
+[I0FX]
+Art=war3mapImported\BTNPowerGrip2.blp
+
+// |CFF20C000Aegle|r
+[I0FW]
+Art=war3mapImported\BTNstormblast.blp
+
+// |CFF20C000Figurine of Magnificence|r
+[I0FV]
+Art=ReplaceableTextures\CommandButtons\BTNClayFigurine.blp
+
+// Wind
+[I0FU]
+Art=war3mapImported\BTNWindsBoots.BLP
+Buttonpos=3,0
+
+// |c00000000End Bringer|r
+[I0FT]
+Art=war3mapImported\BTN_AxeOfAshes.blp
+
+// |CFF00FFFFJustice|r
+[I0FS]
+Art=war3mapImported\BTNGolden Sword.blp
+
+// |CFF00FFFFCross|r
+[I0FR]
+Art=ReplaceableTextures\CommandButtons\BTNAnkh.blp
+
+// |CFF0042FFCross|r
+[I0FQ]
+Art=ReplaceableTextures\CommandButtons\BTNAnkh.blp
+
+// |cffffcc00Cross|r
+[I0FP]
+Art=ReplaceableTextures\CommandButtons\BTNAnkh.blp
+
+// |CFF00FFFFAtlas Sky Holder|r
+[I0FO]
+Art=war3mapImported\BTNSunHomeAmulet.blp
+
+// |CFF00FFFFByatis Scythe|r
+[I0FN]
+Art=war3mapImported\BTNViper.blp
+
+// |CFF0042FFBlue Weapon|r
+[I0FM]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+
+// |CFF00FFFFFinal Deity|r
+[I0FL]
+Art=war3mapImported\BTNEmpty Amulet.blp
+
+// |CFF00FFFFGods Potion|r
+[I0FK]
+Art=war3mapImported\BTNINV_Potion_10.blp
+
+// |CFF00FFFFSupreme|r
+[I0FJ]
+Art=war3mapImported\BTN_cr_MarineArmor2.blp
+Buttonpos=1,0
+
+// |CFF00FFFFCrusher|r
+[I0FI]
+Art=war3mapImported\BTNINV_Weapon_Halberd_07.blp
+
+// Tome of Health +380
+[I0FH]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// MH 42
+[I0FG]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// |cffff0000Red Deity|r|n
+[I0FF]
+Art=war3mapImported\BTNRuby Amulet.blp
+
+// |CFF20C000Green Deity|r
+[I0FE]
+Art=war3mapImported\BTNEmerald Amulet.blp
+
+// |cffffcc00Lora Potion|r
+[I0FD]
+Art=war3mapImported\BTNyellowAApotionGS.blp
+Buttonpos=1,1
+
+// |cffffcc00Copla Potion|r
+[I0FC]
+Art=war3mapImported\BTNpurpleJApotionGS.blp
+Buttonpos=2,1
+
+// |cffffcc00Solea Potion|r
+[I0FB]
+Art=war3mapImported\BTNblueJApotionGS.blp
+Buttonpos=3,1
+
+// |cffffcc00Lyra Potion|r
+[I0FA]
+Art=war3mapImported\BTNredJApotionGS.blp
+Buttonpos=0,1
+
+// GTUD
+[I0F9]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// GTU
+[I0F8]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// |CFF00FFFFHephaestus|r
+[I0F7]
+Art=war3mapImported\BTNINV_Hammer_23.blp
+
+// |cffff8c00Require |n-Helm of Kings|n-Crystal Ball|n-Khadgar's Gem of the Energy|r|n|n
+[I0F6]
+Art=war3mapImported\BTNTAmulet.blp
+
+// |cffffcc00Royal Emblem|r
+[I0F5]
+Art=war3mapImported\BTNTAmulet.blp
+Buttonpos=3,1
+
+// |cff7777aaArcane Staff|r
+[I0F4]
+Art=war3mapImported\BTNArcaneStaff.blp
+
+// 3r
+[I0F3]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// 2nd
+[I0F2]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// |cffffcc00Halberd of Sorrows|r
+[I0F1]
+Art=war3mapImported\BTNINV_Weapon_Halbard_01.blp
+
+// Manual of Health 120
+[I0F0]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// |cffffcc00Eternal Ledger|r
+[I0EZ]
+Art=war3mapImported\BTNWeaver.blp
+
+// |cffff8c00Require |n-Warrior Armor  |n-Talisman of the Wild |n|n
+[I0EY]
+Art=war3mapImported\BTNCriticalStrikeDAB.blp
+Buttonpos=1,0
+
+// |cffffcc00Bloody Edge|r
+[I0EX]
+Art=war3mapImported\BTNCriticalStrikeDAB.blp
+Buttonpos=3,1
+
+// |CFF00FFFFHyperion|r
+[I0EW]
+Art=ReplaceableTextures\CommandButtons\BTNResistantSkin.blp
+
+// |CFF0042FFZeral Amulet|r
+[I0EV]
+Art=ReplaceableTextures\CommandButtons\BTNAcorn.blp
+
+// |cffff8c00Require |n-Scroll of Dexterity  |n-Warrior Boots.
+[I0EU]
+Art=war3mapImported\BTNSandalZ3.blp
+
+// |cffffcc00Battle Hearth|r
+[I0ET]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedCrows.blp
+Buttonpos=1,1
+
+// |cffffcc00Forbidden Elixir|r
+[I0ES]
+Art=ReplaceableTextures\CommandButtons\BTNLiquidFire.blp
+Buttonpos=3,0
+
+// |cffffcc00Perseus|r
+[I0ER]
+Art=war3mapImported\BTNSandalZ3.blp
+Buttonpos=2,0
+
+// |CFF00FFFFHunter|r 
+[I0EP]
+Art=war3mapImported\BTNWindsBow.BLP
+
+// |CFF00FFFFThe World is my Prey|r 
+[I0EO]
+Art=war3mapImported\BTNHunter 03.blp
+
+// |cff7777aaThe Hunt is On|r
+[I0EN]
+Art=war3mapImported\BTNINV_Weapon_Bow_06.blp
+
+// |cffffcc00Hunting High and Low|r
+[I0EM]
+Art=war3mapImported\BTNINV_Weapon_Bow_06.blp
+
+// |cffffcc00On The Hunt|r
+[I0EL]
+Art=war3mapImported\BTNINV_Weapon_Bow_02.blp
+
+// The Hunt Begins
+[I0EK]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedBows.blp
+
+// |cffff8c00Require |n-Reforcer Armor  |n-Ring of Intelligence|n-Pendan of Energy|r|n|n
+[I0EJ]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorMaster.blp
+
+// |cffffcc00True Commander Wish|r
+[I0EI]
+Art=war3mapImported\BTNCommandAura.blp
+Buttonpos=1,1
+
+// |cffff8c00Require |n-Magic Gold Chest  |n-Crystal Ball|r|n|n
+[I0EH]
+Art=ReplaceableTextures\CommandButtons\BTNSorceressAdept.blp
+Requires=hcas
+Buttonpos=0,2
+
+// Cleverness Texts
+[I0EG]
+Art=ReplaceableTextures\CommandButtons\BTNSorceressAdept.blp
+Requires=hcas
+Buttonpos=0,0
+
+// |cffff8c00Require |n-Deadly Spear  |n-Talisman of The Wild  |n-Ring of Agility|r|n|n
+[I0EF]
+Art=ReplaceableTextures\CommandButtons\BTNSpiderSilkBroach.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |cffffcc00Darkness Broach|r
+[I0EE]
+Art=ReplaceableTextures\CommandButtons\BTNSpiderSilkBroach.blp
+Requires=
+Buttonpos=2,1
+
+// Health Stone (lvl |cffffcc003|r)
+[I0ED]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+Buttonpos=2,0
+
+// Health Stone (lvl |cffffcc002|r)
+[I0EC]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+Buttonpos=1,0
+
+// Nature Path
+[I0E4]
+Art=ReplaceableTextures\CommandButtons\BTNNaturesBlessing.blp
+
+// Kan Staff
+[I0E3]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorMaster.blp
+Buttonpos=3,0
+
+// |cff7777aaSavior|r
+[I0E2]
+Art=war3mapImported\BTNTitansteelShield.blp
+
+// |cff7777aaRunic|r
+[I0E1]
+Art=war3mapImported\BTNruneblade2.blp
+
+// |CFF00FFFFZhulong|r
+[I0E0]
+Art=ReplaceableTextures\CommandButtons\BTNBlackDragon.blp
+
+// |CFF00FFFFMerlini|r
+[I0DZ]
+Art=war3mapImported\BTNMoonAmulet.blp
+
+// |cffff8c00Require |n-Flag of Evasion  |n-Crystal Ball |n-Talisman of Wild |n-Scroll of Dexteri|r
+[I0DY]
+Art=war3mapImported\BTNINV_Misc_Cape_12.blp
+
+// |cffff8c00Require |n-Runed Bracers  |n-Boots of Speed|r |n-Giant Guantlets|r
+[I0DX]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfHaste.blp
+
+// |cffffcc00Legacy|r
+[I0DW]
+Art=war3mapImported\BTNINV_Misc_Cape_12.blp
+Buttonpos=1,0
+
+// Scroll of Dexterity
+[I0DV]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfHaste.blp
+
+// Flag of Evasion 
+[I0DU]
+Art=ReplaceableTextures\CommandButtons\BTNHumanCaptureFlag.blp
+
+// Magic Gold Chest
+[I0DT]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// |CFF00FFFFMedea Rod|r
+[I0DS]
+Art=war3mapImported\BTNWaterPearlStaff.blp
+
+// |cffffcc00Boss Hunter|r
+[I0DR]
+Art=war3mapImported\BTNdouble_edge.blp
+
+// |CFF00FFFFDemonic Charm|r
+[I0DQ]
+Art=ReplaceableTextures\CommandButtons\BTNAmuletOftheWild.blp
+
+// |cffffcc00Charm of Honor|r
+[I0DP]
+Art=ReplaceableTextures\CommandButtons\BTNTameHippogriff.blp
+Buttonpos=3,1
+
+// |cffffcc00Enchanted Claws of Ferocity|r
+[I0DO]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedStrengthOfTheWild.blp
+Buttonpos=2,0
+
+// |cffffcc00Divine Amulet of Battle|r
+[I0DN]
+Art=ReplaceableTextures\CommandButtons\BTNAnimalWarTraining.blp
+Buttonpos=2,1
+
+// |cffffcc00Enchanted Dryad Spear|r
+[I0DM]
+Art=ReplaceableTextures\CommandButtons\BTNDryadDispelMagic.blp
+Buttonpos=0,2
+
+// |cffffcc00Druid Claws of Valor|r
+[I0DL]
+Art=ReplaceableTextures\CommandButtons\BTNDOCMasterTraining.blp
+Buttonpos=1,0
+
+// |CFF00FFFFNeptune Trident|r
+[I0DK]
+Art=ReplaceableTextures\CommandButtons\BTNNagaWeaponUp3.blp
+
+// |c00000000Undefeated|r
+[I0DJ]
+Art=war3mapImported\BTNHelmet.blp
+
+// |c00000000Deathless|r
+[I0DI]
+Art=war3mapImported\BTNHylianshield.blp
+
+// |c00000000Darkness Mask|r
+[I0DH]
+Art=ReplaceableTextures\CommandButtons\BTNTichondrius.blp
+
+// |c00000000Eradication Relic|r
+[I0DG]
+Art=ReplaceableTextures\CommandButtons\BTNInfernalFlameCannon.blp
+
+// |CFF00FFFFSacred Guard Shell|r
+[I0DF]
+Art=ReplaceableTextures\CommandButtons\BTNCOP.blp
+
+// |CFF00FFFFByatis Coxa|r
+[I0DE]
+Art=ReplaceableTextures\CommandButtons\BTNSpiderBlack.blp
+
+// |cffff8c00Require |n-Golden Helm  |n-Divine Armor  |n-Amulet of Protection|r|n|n
+[I0DB]
+Art=war3mapImported\BTN_Royal_Helmet.blp
+
+// |cff7777aaHelm of The Underworld King|r
+[I0D8]
+Art=war3mapImported\BTN_Royal_Helmet.blp
+
+// |CFF20C000The Heart of Searinox|r (lvl |cffffcc002|r: |CFF20C000AGI|r)
+[I0D7]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfSearinox.blp
+
+// |CFF0042FFThe Heart of Searinox|r (lvl |cffffcc002|r: |CFF0042FFINT|r)
+[I0D6]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfSearinox.blp
+
+// |cffff0000The Heart of Searinox|r (lvl |cffffcc002|r: |cffff0000STR|r)
+[I0D5]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfSearinox.blp
+
+// |cffff8c00The Heart of Searinox|r (lvl |cffffcc002|r: |cffff8c00All Stats|r)
+[I0D4]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfSearinox.blp
+
+// |CFF0042FFDiamond of Knowledge|r (lvl |cffffcc003|r)
+[I0D3]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedGemstone.blp
+Buttonpos=2,0
+
+// |cffffcc00Diamond of Knowledge|r (lvl |cffffcc002|r)
+[I0D2]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedGemstone.blp
+Buttonpos=1,0
+
+// |CFF0042FFBlue Deity|r
+[I0D1]
+Art=war3mapImported\BTNSapphire Amulet.blp
+
+// |cffffcc00Volcanic Sword|r
+[I0D0]
+Art=war3mapImported\BTNFireSword.blp
+Buttonpos=1,0
+
+// |cffffcc00Ignite Scepter|r
+[I0CZ]
+Art=war3mapImported\BTNfireStaff.blp
+
+// |cffffcc00Double Edge|r
+[I0CY]
+Art=war3mapImported\BTNmonkstaffblade.blp
+Buttonpos=3,0
+
+// |CFF00FFFFHeracles|r
+[I0CX]
+Art=war3mapImported\BTNCrowLightArmor.blp
+
+// |cffff0000Vrykolaklaus Claws|r
+[I0CW]
+Art=ReplaceableTextures\CommandButtons\BTNGhoulFrenzy.blp
+
+// |cffffcc00Tidal Charm|r
+[I0CV]
+Art=ReplaceableTextures\CommandButtons\BTNNeutralManaShield.blp
+Buttonpos=0,2
+
+// |cffffcc00Water Orb|r
+[I0CU]
+Art=war3mapImported\BTNWaterOrbS.blp
+Buttonpos=0,2
+
+// |cffffcc00Rod of The Holy Star|r
+[I0CT]
+Art=ReplaceableTextures\CommandButtons\BTNStarWand.blp
+Buttonpos=0,2
+
+// |cffffcc00Magical Water|r
+[I0CS]
+Art=ReplaceableTextures\CommandButtons\BTNCrushingWave.blp
+
+// |cffffcc00Beast Collar|r
+[I0CR]
+Art=ReplaceableTextures\CommandButtons\BTNFelHound.blp
+Buttonpos=2,1
+
+// |cffffcc00Artemis Knowledge|r
+[I0CQ]
+Art=ReplaceableTextures\CommandButtons\BTNTomeBrown.blp
+Buttonpos=1,1
+
+// |cffffcc00Heart Container|r
+[I0CP]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyPotion.blp
+Buttonpos=3,1
+
+// |cffff8c00Require |n-Batallion  |n-Talisman of Cursed Bones  |n-Sacred Gem of War|r|n|n
+[I0CO]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfDoom.blp
+
+// |cff7777aaLegion Doom-Horn|r
+[I0CN]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfDoom.blp
+
+// |cff7777aaGladiator Armor|r
+[I0CM]
+Art=war3mapImported\BTNPowerCarapace.blp
+
+// |cffff8c00Require |n-Horn of Toughness |n-Excepcional Creature Carapace|r
+[I0CL]
+Art=war3mapImported\BTNPowerCarapace.blp
+
+// |cffffcc00Superior Creature Claws|r
+[I0CK]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedCreatureAttack.blp
+
+// |cffffcc00Exceptional Creature Carapace|r
+[I0CJ]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedCreatureCarapace.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Glacial Staff  |n-Warlock Staff|r|n|n
+[I0CI]
+Buttonpos=3,1
+Requires=etoa
+Art=war3mapImported\BTNDemonStarAmulet.blp
+
+// |cffffcc00Sorcerer's Amulet|r
+[I0CH]
+Buttonpos=3,1
+Requires=
+Art=war3mapImported\BTNDemonStarAmulet.blp
+
+// |cffff8c00Require |n-Pendant of Energy |n-Talisman of the Wild |n-Zombie Helm|r|n|n
+[I0CG]
+Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+
+// |cffffcc00Orb of Time|r
+[I0CF]
+Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+
+// Wand of Illusion 2
+[I0CE]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+
+// |cffff8c00Require |n-Zombie Helm  |n-Khadgar's Gem of the Energy|r
+[I0CD]
+Art=ReplaceableTextures\CommandButtons\BTNTomeOfRetraining.blp
+
+// |cffffcc00Circe Book|r
+[I0CC]
+Art=ReplaceableTextures\CommandButtons\BTNTomeOfRetraining.blp
+Buttonpos=2,1
+
+// |cffff8c00Require |n-Enchanted Sphere  |n-Dual Sword |n-Helm of King|r|n|n
+[I0CB]
+Art=ReplaceableTextures\CommandButtons\BTNManaStone.blp
+
+// |cffffcc00Sacred Mana Sphere|r
+[I0CA]
+Art=ReplaceableTextures\CommandButtons\BTNManaStone.blp
+Buttonpos=1,1
+
+// Enchanted Sphere
+[I0C9]
+Art=ReplaceableTextures\CommandButtons\BTNThunderLizardEgg.blp
+
+// |CFF00FFFFMichael Heart|r
+[I0C8]
+Art=ReplaceableTextures\CommandButtons\BTNVialFull.blp
+
+// |c00000000Death Scythe|r
+[I0C7]
+Art=war3mapImported\BTNScytheofElune.blp
+
+// |c00000000Death Scythe|r
+[I0C6]
+Art=war3mapImported\BTNScytheofElune.blp
+
+// |c00000000Death Cape|r
+[I0C5]
+Art=war3mapImported\BTNINV_Misc_Cape_02.blp
+
+// |CFF00FFFFApocalypse Head|r|n
+[I0C4]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNFrostWyrm.blp
+
+// |cff7777aaKusanagi-no-Tsurugi|r
+[I0C3]
+Art=war3mapImported\BTNSamuraiSword.blp
+
+// |cffffcc00Perfect Ruby|r
+[I0C2]
+Art=war3mapImported\BTNINV_Misc_Gem_Ruby_02.blp
+Buttonpos=3,0
+
+// |CFF0042FFAres|r
+[I0C1]
+Art=war3mapImported\BTN_AxeOfAshes.blp
+
+// |CFF0042FFDecapitator|r (lvl |cffffcc004|r)
+[I0C0]
+Art=war3mapImported\BTNAxe of Terror.blp
+
+// |CFF20C000Decapitator|r (lvl |cffffcc003|r)
+[I0BZ]
+Art=war3mapImported\BTNAxe of Terror.blp
+
+// |CFF0042FFHermes|r
+[I0BY]
+Art=war3mapImported\BTNCRFrostShock.blp
+
+// |CFF0042FFEidyia|r
+[I0BX]
+Art=war3mapImported\BTNWaterOrb.blp
+
+// |CFF0042FFNosferatu Sword|r
+[I0BW]
+Art=war3mapImported\BTNSamuraiSword.blp
+
+// |CFF20C000Vampiric Sword|r
+[I0BV]
+Art=war3mapImported\BTNCorruptedBlade.blp
+
+// |CFF0042FFMasamune|r
+[I0BU]
+Art=war3mapImported\BTNImprovedSamuraiBlades.blp
+
+// |CFF20C000Elite Rune Scimitar|r
+[I0BT]
+Art=war3mapImported\BTNSickle.blp
+
+// |CFF20C000Elite Rune Sword|r
+[I0BS]
+Art=war3mapImported\BTNSpell_Holy_RetributionAura.blp
+
+// |CFF20C000Elite Rune Gloves|r
+[I0BR]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheWild.blp
+
+// |CFF20C000Rune Axe|r
+[I0BQ]
+Art=war3mapImported\BTNINV_ThrowingAxe_06.blp
+
+// |CFF20C000Elite Rune Shield|r
+[I0BP]
+Art=war3mapImported\BTNHolyShield.BLP
+
+// |CFF20C000Elite Rune Boots|r
+[I0BO]
+Art=ReplaceableTextures\CommandButtons\BTNBoots.blp
+
+// |CFF20C000Elite Rune Armor|r
+[I0BN]
+Art=war3mapImported\BTNINV_Chest_Chain_10.blp
+
+// |CFF20C000Elite Rune Helm|r
+[I0BM]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+// |CFF20C000Unholy Crystal|r
+[I0BL]
+Art=war3mapImported\BTNBlueCrystal.blp
+
+// |CFF20C000Impale Armor|r
+[I0BK]
+Art=war3mapImported\BTNChainArmor.blp
+
+// |CFF20C000Sharp Armor|r
+[I0BJ]
+Art=war3mapImported\BTNINV_Chest_Plate12.blp
+
+// |CFF20C000Spiked Armor|r
+[I0BI]
+Art=war3mapImported\BTNINV_Chest_Plate12.blp
+
+// |CFF20C000Celestial Sword|r
+[I0BH]
+Art=war3mapImported\BTNSword2.blp
+
+// |CFF20C000Divine Sword|r
+[I0BG]
+Art=war3mapImported\BTNCrystalBlade.blp
+
+// |CFF20C000Sacred Sword|r
+[I0BF]
+Art=war3mapImported\BTNHoly_Sword.blp
+
+// |CFF20C000Golden Sword|r
+[I0BE]
+Art=war3mapImported\BTNGolden Sword.blp
+
+// |CFF20C000Blessing Sword|r
+[I0BD]
+Art=war3mapImported\BTNSwordStrike.blp
+
+// |CFF20C000Diabolic Scimitar|r
+[I0BC]
+Art=war3mapImported\BTNFrostSword.blp
+
+// |CFF20C000Elite Mithril Scimitar|r
+[I0BB]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Defender|r
+[I0BA]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedUnholyArmor.blp
+
+// |CFF20C000Plate Shield|r
+[I0B9]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpTwo.blp
+
+// |CFF20C000Edge and Defence|r
+[I0B8]
+Art=war3mapImported\BTNStorm Defense.blp
+
+// |CFF20C000Guard Shield|r
+[I0B7]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpOne.blp
+
+// |CFF20C000Adamantium War Maul|r
+[I0B6]
+Art=war3mapImported\BTNBattlePriestsHammer.blp
+
+// |CFF20C000Two Tons War Hammer|r
+[I0B5]
+Art=war3mapImported\BTNPaladin_Hammer.blp
+
+// |CFF20C000Heavy War Hammer|r
+[I0B4]
+Art=ReplaceableTextures\CommandButtons\BTNHammer.blp
+
+// |CFF20C000Sacred Gloves|r
+[I0B3]
+Art=war3mapImported\BTNNature Gloves.blp
+
+// |CFF20C000Mystic Gloves|r
+[I0B2]
+Art=war3mapImported\BTNNature Gloves.blp
+
+// |CFF20C000Genocidal Axe|r
+[I0B1]
+Art=war3mapImported\BTN Attack2.blp
+
+// |CFF20C000Destructive Axe|r
+[I0B0]
+Art=war3mapImported\BTNBlueAxe.blp
+
+// |CFF20C000Bone Axe|r
+[I0AZ]
+Art=ReplaceableTextures\CommandButtons\BTNSpiritWalkerAdeptTraining.blp
+
+// |CFF20C000Shaman Axe|r
+[I0AY]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpOne.blp
+
+// |CFF20C000Heroism Boots|r
+[I0AX]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsLeg.blp
+
+// |CFF20C000Bravery Boots|r
+[I0AW]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsLeg.blp
+
+// |CFF20C000Audacity Boots|r
+[I0AV]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsOtherLeg.blp
+Buttonpos=1,0
+
+// |CFF20C000Valor Boots|r
+[I0AU]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsOtherLeg.blp
+
+// |CFF20C000Adamantium Armor|r
+[I0AT]
+Art=war3mapImported\BTNMarineArmor.blp
+
+// |CFF20C000Diamond Armor|r
+[I0AS]
+Art=war3mapImported\BTNRoyalArmor.blp.blp
+
+// |CFF20C000Royal Armor|r
+[I0AR]
+Art=war3mapImported\BTNINV_Chest_Chain_16.blp
+
+// |CFF20C000Centurion Armor|r
+[I0AQ]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeThree.blp
+
+// |CFF20C000Knight Armor|r
+[I0AP]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeThree.blp
+
+// |CFF20C000Hard Armor|r
+[I0AO]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeTwo.blp
+
+// |CFF20C000Sacred Sphere of Vitality|r
+[I0AN]
+Art=war3mapImported\BTNSphereOfWater.blp
+
+// |CFF20C000Vitality Gem|r
+[I0AM]
+Art=ReplaceableTextures\CommandButtons\BTNSoulGem.blp
+
+// |CFF20C000Spirit Gem|r
+[I0AL]
+Art=ReplaceableTextures\CommandButtons\BTNSoulGem.blp
+
+// |CFF20C000Vigor Gem|r
+[I0AK]
+Art=ReplaceableTextures\CommandButtons\BTNSoulGem.blp
+
+// |CFF20C000Life Gem|r
+[I0AJ]
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt1.blp
+
+// |CFF20C000Hide Leather|r
+[I0AI]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeOne.blp
+
+// |CFF20C000Twins Swords|r
+[I0AH]
+Art=war3mapImported\BTNINV_ThrowingKnife_04.blp
+
+// |CFF20C000Duo Swords|r
+[I0AG]
+Art=war3mapImported\BTNINV_ThrowingKnife_03.blp
+
+// |CFF20C000Unholy Sword|r
+[I0AF]
+Art=war3mapImported\BTNCorruptedBlade.blp
+
+// |CFF20C000Swords Pair|r
+[I0AE]
+Art=war3mapImported\BTNINV_ThrowingKnife_03.blp
+
+// |CFF20C000Improve Scimitar|r
+[I0AD]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Hephaestus Helm|r
+[I0AC]
+Art=war3mapImported\BTN_TitanHelmet.blp
+
+// |CFF20C000Sacred Helm|r
+[I0AB]
+Art=war3mapImported\BTNGoldHelmet.BLP
+
+// |CFF20C000Mystic Helm|r
+[I0AA]
+Art=war3mapImported\BTNGoldHelmet.BLP
+
+// |CFF20C000Magic Iron Helm|r
+[I0A9]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+// |CFF20C000Magic Helm|r
+[I0A8]
+Art=ReplaceableTextures\CommandButtons\BTNHoodOfCunning.blp
+
+// |CFF20C000Sacred Edge Sword|r
+[I0A7]
+Art=war3mapImported\BTNMoonGlaive.blp
+
+// |CFF20C000Razor Sword|r
+[I0A6]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteMelee.blp
+
+// |CFF20C000Edged Sword|r
+[I0A5]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteMelee.blp
+
+// |CFF20C000Sharp Sword|r
+[I0A4]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteMelee.blp
+
+// |CFF20C000Cutting Sword|r
+[I0A3]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |CFF20C000Keen Sword|r
+[I0A2]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |CFF20C000Improve Sword|r
+[I0A1]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |CFF20C000Hell Grimoire|r
+[I0A0]
+Art=ReplaceableTextures\CommandButtons\BTNBookOfTheDead.blp
+Buttonpos=0,1
+
+// |CFF20C000Grimoire of The Orc Soul|r
+[I09Z]
+Art=ReplaceableTextures\CommandButtons\BTNSorceressMaster.blp
+
+// |CFF20C000Sacred Firebolt Scepter|r
+[I09Y]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorMaster.blp
+
+// |CFF20C000Mystic Firebolt Scepter|r
+[I09X]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorMaster.blp
+
+// |CFF20C000Firebolt Scepter|r
+[I09W]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorAdept.blp
+
+// |CFF20C000Firebolt Staff|r
+[I09V]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorAdept.blp
+
+// |CFF20C000Firebolt Wand|r
+[I09U]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfCyclone.blp
+
+// |CFF20C000Hitman Blade|r
+[I09T]
+Art=war3mapImported\BTNDagger.blp
+
+// |CFF20C000Killer Blade|r
+[I09S]
+Art=war3mapImported\BTNDagger.blp
+
+// |CFF20C000Baneful Spear|r
+[I09R]
+Art=ReplaceableTextures\PassiveButtons\PASBTNEnvenomedSpear.blp
+
+// |CFF20C000Venomous Spear|r
+[I09Q]
+Art=ReplaceableTextures\PassiveButtons\PASBTNEnvenomedSpear.blp
+
+// |CFF20C000Poisonous Spear|r
+[I09P]
+Art=ReplaceableTextures\PassiveButtons\PASBTNEnvenomedSpear.blp
+
+// |CFF20C000Noxious Spear|r
+[I09O]
+Art=ReplaceableTextures\PassiveButtons\PASBTNEnvenomedSpear.blp
+Buttonpos=2,1
+
+// |CFF20C000Toxic Spear|r
+[I09N]
+Art=ReplaceableTextures\PassiveButtons\PASBTNEnvenomedSpear.blp
+
+// |CFF20C000Necklace of Divinity|r
+[I09M]
+Art=war3mapImported\BTNSunHomeAmulet.blp
+
+// |CFF20C000Necklace of Magnificence|r
+[I09L]
+Art=war3mapImported\BTNSoulTalisman.BLP
+
+// |CFF20C000Necklace of Majesty|r
+[I09K]
+Art=war3mapImported\BTNINV_Jewelry_Necklace_01.blp
+
+// |CFF20C000Necklace of Greatness|r
+[I09J]
+Art=ReplaceableTextures\CommandButtons\BTNNecklace.blp
+
+// |CFF20C000Circlet of Grandeur|r
+[I09I]
+Art=ReplaceableTextures\CommandButtons\BTNCirclet.blp
+
+// |CFF20C000Circlet of Aristocracy|r
+[I09H]
+Art=ReplaceableTextures\CommandButtons\BTNCirclet.blp
+
+// |CFF20C000Diviner Armor|r
+[I09G]
+Art=war3mapImported\BTNINV_Robe_03.blp
+
+// |CFF20C000Sorcerer Armor|r
+[I09F]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+
+// |CFF20C000Wizard Armor|r
+[I09E]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+
+// |CFF20C000Magus Armor|r
+[I09D]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+
+// |CFF20C000Magician Armor|r
+[I09C]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+
+// |CFF20C000Elite Shaman Claws|r
+[I09B]
+Art=ReplaceableTextures\CommandButtons\BTNShamanAdept.blp
+
+// |CFF20C000Shaman Claws|r
+[I09A]
+Art=ReplaceableTextures\CommandButtons\BTNShamanAdept.blp
+
+// |CFF20C000Lavahand Gauntlets|r
+[I099]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedUnholyStrength.blp
+Buttonpos=1,2
+
+// |CFF20C000Moon Armor|r
+[I098]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedMoonArmor.blp
+
+// |CFF20C000Fashion Armor|r
+[I097]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedMoonArmor.blp
+Buttonpos=2,2
+
+// |CFF20C000Artemis Ring|r
+[I096]
+Art=ReplaceableTextures\CommandButtons\BTNRingPurple.blp
+
+// |CFF20C000Sacred A. Ring|r
+[I095]
+Art=ReplaceableTextures\CommandButtons\BTNRingLionHead.blp
+
+// |CFF20C000Mystic A. Ring|r
+[I094]
+Art=ReplaceableTextures\CommandButtons\BTNGoldRing.blp
+
+// |CFF20C000A. Ring|r
+[I093]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+// |CFF20C000K. Ring|r
+[I092]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+// |CFF20C000Q. Ring|r
+[I091]
+Art=ReplaceableTextures\CommandButtons\BTNRingVioletSpider.blp
+
+// |CFF0042FFKratos|r
+[I090]
+Art=war3mapImported\BTNShackle.blp
+
+// |CFF20C000Sacred Scroll of Strength|r
+[I08Z]
+Art=ReplaceableTextures\CommandButtons\BTNBansheeMaster.blp
+
+// |CFF20C000Mystic Scroll of Strength|r
+[I08Y]
+Art=ReplaceableTextures\CommandButtons\BTNBansheeMaster.blp
+
+// |CFF20C000Elite Scroll of Strength|r
+[I08X]
+Art=ReplaceableTextures\CommandButtons\BTNBansheeMaster.blp
+
+// |CFF20C000Greater Ring Strength|r
+[I08W]
+Art=ReplaceableTextures\CommandButtons\BTNRingSkull.blp
+
+// |CFF20C000Belt of Giant Strength|r
+[I08V]
+Art=ReplaceableTextures\CommandButtons\BTNBelt.blp
+
+// |CFF20C000Mystic Figurine|r
+[I08U]
+Art=ReplaceableTextures\CommandButtons\BTNClayFigurine.blp
+
+// |CFF20C000Old Figurine|r
+[I08T]
+Art=ReplaceableTextures\CommandButtons\BTNClayFigurine.blp
+
+// |CFF20C000Ancient Figurine|r
+[I08S]
+Art=ReplaceableTextures\CommandButtons\BTNClayFigurine.blp
+
+// |CFF20C000Greater Mana Talisman|r
+[I08R]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+
+// |CFF20C000Bigger Mana Talisman|r
+[I08Q]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+
+// |CFF20C000Mana Talisman|r
+[I08P]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+
+// |CFF20C000Rune Shield|r
+[I08O]
+Art=war3mapImported\BTNHolyShield.BLP
+
+// |CFF20C000Titanium Shield|r
+[I08N]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpTwo.blp
+
+// |CFF20C000Steel Shield|r
+[I08M]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpOne.blp
+
+// |CFF20C000Mithril Shield|r
+[I08L]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpOne.blp
+
+// |CFF20C000Rusty Shield|r
+[I08K]
+Art=ReplaceableTextures\CommandButtons\BTNSteelArmor.blp
+
+// |CFF20C000Rune Boots|r
+[I08J]
+Art=war3mapImported\BTNHeavyBoots.blp
+
+// |CFF20C000Mithril Boots|r
+[I08I]
+Art=war3mapImported\BTNHeavyBoots.blp
+
+// |CFF20C000Improve Boots|r
+[I08H]
+Art=war3mapImported\BTNHeavyBoots.blp
+
+// |CFF20C000Rune Gloves|r
+[I08G]
+Art=war3mapImported\BTNHoly Plated Gauntlet.blp
+
+// |CFF20C000Titanium Gloves|r
+[I08F]
+Art=war3mapImported\BTNHoly Plated Gauntlet.blp
+
+// |CFF20C000Mithril Gloves|r
+[I08E]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// |CFF20C000Steel Gloves|r
+[I08D]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// |CFF20C000Elite Rune Axe|r
+[I08C]
+Art=war3mapImported\BTNAxe2.blp
+
+// |CFF20C000Titanium Axe|r
+[I08B]
+Art=war3mapImported\BTNUpgradeAxe2.BLP
+
+// |CFF20C000Rune Helm|r
+[I08A]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+// |CFF20C000Titanium Helm|r
+[I089]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+// |CFF20C000Rune Armor|r
+[I088]
+Art=war3mapImported\BTNINV_Chest_Chain_11.blp
+
+// |CFF20C000Titanium Armor|r
+[I087]
+Art=war3mapImported\BTNINV_Chest_Plate12.blp
+
+// |CFF20C000Rune Scimitar|r
+[I086]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Rune Sword|r
+[I085]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteMelee.blp
+
+// |CFF20C000Rusty Figurine|r
+[I084]
+Art=ReplaceableTextures\CommandButtons\BTNClayFigurine.blp
+
+// |CFF20C000Titanium Scimitar|r
+[I083]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Titanium Sword|r
+[I082]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |CFF20C000Mithril Helm|r
+[I081]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+// |CFF20C000Steel Helm|r
+[I080]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+
+// |CFF20C000Steel Armor|r
+[I07Z]
+Art=war3mapImported\BTNINV_Chest_Plate12.blp
+
+// |CFF20C000Mithrill Armor|r
+[I07Y]
+Art=war3mapImported\BTNINV_Chest_Plate12.blp
+
+// |CFF20C000Mithril Axe|r
+[I07X]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpThree.blp
+
+// |CFF20C000Steel Axe|r
+[I07W]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpTwo.blp
+
+// |CFF20C000Steel Scimitar|r
+[I07V]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Mithril Scimitar|r
+[I07U]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Mithril Sword|r
+[I07T]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |CFF20C000Steel Sword|r
+[I07S]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |CFF20C000Leather Gloves|r
+[I07R]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+
+// |CFF20C000Leather Boots|r
+[I07Q]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+
+// |CFF20C000Lesser Mana Talisman|r
+[I07P]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+
+// |CFF20C000Hide Armor|r
+[I07O]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeOne.blp
+
+// |CFF20C000Hide Armor|r
+[I07N]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeOne.blp
+
+// |CFF20C000Hide Helm|r
+[I07M]
+Art=ReplaceableTextures\CommandButtons\BTNHoodOfCunning.blp
+
+// |CFF20C000Scimitar|r
+[I07L]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Hide Helm|r
+[I07K]
+Art=ReplaceableTextures\CommandButtons\BTNHoodOfCunning.blp
+
+// |CFF20C000Scimitar|r
+[I07J]
+Art=war3mapImported\BTNScimitar.blp
+
+// |CFF20C000Iron Sword|r
+[I07I]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |CFF20C000Iron Axe|r
+[I07H]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpOne.blp
+
+// |CFF20C000Iron Sword|r
+[I07G]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// |cff7777aaSlayer Armor|r
+[I07F]
+Art=war3mapImported\BTNWater Composite Armor.blp
+
+// Green Flag
+[I07E]
+Art=ReplaceableTextures\CommandButtons\BTNUndeadCaptureFlag.blp
+Buttonpos=0,2
+
+// Shamanic Totem
+[I07D]
+Art=ReplaceableTextures\CommandButtons\BTNEntrapmentWard.blp
+Buttonpos=1,1
+
+// Voodoo Doll
+[I07C]
+Art=ReplaceableTextures\CommandButtons\BTNShadowPact.blp
+Buttonpos=1,0
+
+// |cffffcc00Sacred Battle Axe|r
+[I07B]
+Art=war3mapImported\BTNINV_ThrowingAxe_06.blp
+Buttonpos=1,1
+
+// |cffffcc00Golden Gauntlets|r
+[I07A]
+Art=war3mapImported\BTNHoly Plated Gauntlet.blp
+Buttonpos=3,0
+
+// |cffffcc00Eternium|r
+[I079]
+Art=war3mapImported\BTNSphereOfDivine.blp
+Buttonpos=0,1
+
+// |cffffcc00Michael Shield|r
+[I078]
+Art=war3mapImported\BTNShieldHumanLionMark.BLP
+
+// |cffff8c00Require |n-Glacial Scepter  |n-Thunder Scepter |n-Fire Scepter |r
+[I077]
+Art=war3mapImported\BTN_NerubianScepter.blp
+
+// |cff7777aaExodus|r (lvl |cffffcc001|r)
+[I076]
+Art=war3mapImported\BTN_NerubianScepter.blp
+
+// |cffff8c00Require |n-Dark Staff|n-Lightning Staff|n-Pendant of Energy|r|n|n
+[I075]
+Art=war3mapImported\BTNINV_Wand_07.blp
+
+// |cffffcc00Thunder Scepter|r (lvl |cffffcc003|r)
+[I074]
+Art=war3mapImported\BTNINV_Wand_07.blp
+Buttonpos=2,1
+
+// Thunder Scepter (lvl |cffffcc002|r)
+[I073]
+Art=war3mapImported\BTNINV_Wand_07.blp
+Buttonpos=1,1
+
+// Thunder Scepter (lvl |cffffcc001|r)
+[I072]
+Art=war3mapImported\BTNINV_Wand_07.blp
+Buttonpos=0,1
+
+// Unholy Gloves
+[I071]
+Art=war3mapImported\BTNNature Gloves.blp
+
+// |cffff8c00Require |n-Enchanted Necklace |n-Giant Gauntlets
+[I070]
+Art=war3mapImported\BTNNature Gloves.blp
+
+// |cffff8c00Require |n-Helm of Kings  |n-Crystal Ball |n-Medallion of Warlock|r|n|n
+[I06Z]
+Buttonpos=3,1
+Art=war3mapImported\BTNWinged-Clock.blp
+
+// |cffffcc00Chronos|r
+[I06Y]
+Buttonpos=0,1
+Art=war3mapImported\BTNWinged-Clock.blp
+
+// |cffff8c00Require |n-Emerald |n-Glacial Staff|r|n|n
+[I06X]
+Buttonpos=3,1
+Art=war3mapImported\BTNINV_Misc_Gem_Topaz_02.blp
+
+// |cffffcc00Perfect Topaz|r
+[I06W]
+Buttonpos=3,0
+Art=war3mapImported\BTNINV_Misc_Gem_Topaz_02.blp
+
+// |cffff8c00Require |n-Khadgar's Gem of the Energy  |n-Sonic Gloves |n-Big Shield|r|n|n
+[I06V]
+Art=war3mapImported\BTNCommandAura.BLP
+
+// |cffff8c00Require |n-Warsong Battle Drums  |n-Crystal ball |n-Medallion of Warlock |n-Quality Ar
+[I06U]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfFog.blp
+
+// |cffffcc00Horn of Stampede|r
+[I06T]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfFog.blp
+Buttonpos=2,0
+
+// |cffffcc00Commander Wish|r
+[I06S]
+Art=war3mapImported\BTNCommandAura.BLP
+Buttonpos=0,1
+
+// |cffffcc00Batallion|r
+[I06R]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfRegenerationGreen.blp
+Buttonpos=2,1
+
+// |cffff8c00Require |n-Deadly Spear|n-Heavy Helm|n-Talisman of The Wild|r|n|n
+[I06Q]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfRegenerationGreen.blp
+
+// |cffff8c00Require |n-Crystal Ball|n-Plate Armor|n-Zombie Helm|r|n|n
+[I06P]
+Art=ReplaceableTextures\CommandButtons\BTNBoneChimes.blp
+
+// |cffffcc00Talisman of Cursed Bones|r
+[I06O]
+Art=ReplaceableTextures\CommandButtons\BTNBoneChimes.blp
+Buttonpos=3,1
+
+// |cffff0000Decapitator|r (lvl |cffffcc002|r)
+[I06N]
+Art=war3mapImported\BTNAxe of Terror.blp
+Buttonpos=3,0
+
+// |cffffcc00UNBEATABLE|r
+[I06M]
+Art=war3mapImported\BTNShieldOfHope.blp
+
+// |cffff8c00Require |n-Flag of Strength  |n-Ancient Hammer  |n-Sonic Gloves|r|n|n
+[I06L]
+Art=ReplaceableTextures\CommandButtons\BTNNagaWeaponUp1.blp
+
+// |cffffcc00Battle Trident|r (lvl |cffffcc001|r)
+[I06K]
+Art=ReplaceableTextures\CommandButtons\BTNNagaWeaponUp1.blp
+Buttonpos=0,1
+
+// |cffff8c00Require |n-Flute of Accuracy  |n-Warrior Armor  |n-Helm of King|r|n|n
+[I06J]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfCenarius.blp
+
+// |cffffcc00Sprightliness|r
+[I06I]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfCenarius.blp
+Buttonpos=1,1
+
+// |cffffcc00Hydra Hatching|r
+[I06H]
+Art=ReplaceableTextures\CommandButtons\BTNGreenHydra.blp
+
+// |cffff0000Ancient Vampire Cape|r
+[I06G]
+Art=ReplaceableTextures\CommandButtons\BTNCloak.blp
+
+// |cffff0000Nosferatu Fangs|r
+[I06F]
+Art=ReplaceableTextures\CommandButtons\BTNCannibalize.blp
+
+// |cffffcc00Boots of Quel'Thalas|r
+[I06E]
+Art=ReplaceableTextures\CommandButtons\BTNBoots.blp
+
+// |cffffcc00Azazel Urn|r
+[I06D]
+Art=ReplaceableTextures\CommandButtons\BTNJanggo.blp
+
+// |CFF0042FFArtemis Flute|r
+[I06C]
+Art=war3mapImported\BTNNatureFlute.BLP
+
+// Scroll of Agility
+[I06B]
+Art=ReplaceableTextures\CommandButtons\BTNBansheeAdept.blp
+Buttonpos=0,2
+
+// Gold Coins 9999
+[I06A]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// Gold Coins 2000
+[I069]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// Gold Coins 1000
+[I068]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// Gold Coins 700
+[I067]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// Gold Coins 500
+[I066]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// Gold Coins 300
+[I065]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// Gold Coins 150
+[I064]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// |cffff0000Ancient Dragon Scales|r
+[I063]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp2.blp
+
+// |cffff0000Ancient Dragon Claws|r
+[I062]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedCreatureAttack.blp
+
+// |cff7777aaLich's Book|r
+[I061]
+Art=ReplaceableTextures\CommandButtons\BTNSorceressMaster.blp
+
+// |cff7777aaAtlas|r
+[I060]
+Art=war3mapImported\BTNSunHomeAmulet.blp
+
+// |cffff8c00Require |n-Divine Rune  |n-Talisman of The Wild  |n-Flag of Strength  |n-Scroll of Str
+[I05Z]
+Art=war3mapImported\BTNSunHomeAmulet.blp
+
+// |cffffcc00Possessed Halberd|r
+[I05Y]
+Art=war3mapImported\BTNINV_Weapon_Halberd_11.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Talisman of the Wild  |n-Low Quality Armor|r|n|n
+[I05X]
+Art=war3mapImported\BTNChainArmor.blp
+
+// Carapace Armor
+[I05W]
+Art=war3mapImported\BTNChainArmor.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Shield of Iron  |n-Ring of Strength|n-Heavy Helm|r|n|n
+[I05V]
+Art=war3mapImported\BTNHolyShield.BLP
+
+// Spell Shield
+[I05U]
+Art=war3mapImported\BTNHolyShield.BLP
+Buttonpos=1,1
+
+// |cffffcc00Horn of Toughness|r
+[I05T]
+Art=ReplaceableTextures\CommandButtons\BTNDOTMasterTraining.blp
+Buttonpos=2,1
+
+// |cffffcc00Scepter of Wisdom|r
+[I05S]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorAdept.blp
+Buttonpos=0,1
+
+// |CFF00FFFFGods Essence|r
+[I05R]
+Art=ReplaceableTextures\CommandButtons\BTNVialFull.blp
+
+// |cffff8c00Require |n-Decapitator  |n-Mugen (lvl1)|n-Assassin Lance
+[I05Q]
+Art=war3mapImported\BTNDeadlyWeapon.blp
+
+// |cff7777aaSlicer|r
+[I05P]
+Art=war3mapImported\BTNDeadlyWeapon.blp
+
+// |cffff8c00Require |n-Shield of Revenge  |n-Ring of Strength|n-Crystal Ball|r
+[I05O]
+Art=ReplaceableTextures\CommandButtons\BTNShieldUndeadDeathMark.BLP
+
+// |cffffcc00Untouchable|r
+[I05N]
+Art=ReplaceableTextures\CommandButtons\BTNShieldUndeadDeathMark.BLP
+Buttonpos=3,0
+
+// |cffff8c00Require |n-Khadgar's Gem of the Energy |n-Ring of Intelligence  |n-Dark Staff
+[I05M]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedGemstone.blp
+
+// |cffffcc00Diamond of Knowledge|r (lvl |cffffcc001|r)
+[I05L]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedGemstone.blp
+
+// |cffff8c00Require |n-Ring of Intelligence  |n-Ring of Strength |n-Heavy Helm|n-Pendant of Ener|r
+[I05K]
+Art=ReplaceableTextures\CommandButtons\BTNShipMechanism.blp
+
+// Magical Rope
+[I05J]
+Art=ReplaceableTextures\CommandButtons\BTNShipMechanism.blp
+Buttonpos=3,1
+
+// |cffffcc00Perfect Emerald|r (lvl |cffffcc004|r)
+[I05I]
+Art=war3mapImported\BTNINV_Misc_Gem_Emerald_02.blp
+Buttonpos=3,0
+
+// Flawless Emerald (lvl |cffffcc003|r)
+[I05H]
+Art=war3mapImported\BTNINV_Jewelry_Necklace_01.blp
+Buttonpos=2,0
+
+// Improved Emerald (lvl |cffffcc002|r)
+[I05G]
+Art=war3mapImported\BTNINV_Jewelry_Necklace_01.blp
+Buttonpos=1,0
+
+// |cffffcc00Frozen Helm of Chaos|r
+[I05F]
+Buttonpos=2,0
+Art=ReplaceableTextures\CommandButtons\BTNIceShard.blp
+
+// |cff7777aaFinal Artifact|r
+[I05E]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_01.blp
+
+// |cff7777aaDivine Sapphire 3|r
+[I05D]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_01.blp
+
+// |cff7777aaDivine Sapphire 2|r
+[I05C]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_01.blp
+
+// |cffffcc00Beyond Perfection Sapphire|r
+[I05B]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_02.blp
+
+// |cff7777aaDivine Sapphire|r
+[I05A]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_01.blp
+
+// |cffffcc00Sacred Sapphire|r
+[I059]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_02.blp
+
+// |cffffcc00Perfect Sapphire|r
+[I058]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_02.blp
+
+// |cffffcc00Flawless Sapphire|r
+[I057]
+Art=war3mapImported\BTNSapphire.blp
+
+// |cffffcc00Refined Sapphire|r
+[I056]
+Art=war3mapImported\BTNSapphire.blp
+
+// |cffffcc00Sapphire|r
+[I055]
+Art=war3mapImported\BTNSapphire.blp
+
+// Chipped Sapphire 
+[I054]
+Art=war3mapImported\BTNGem of Mana.blp
+
+// Refined Sapphire Parts
+[I053]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_03.blp
+
+// Several Sapphire Parts
+[I052]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_03.blp
+
+// Sapphire Parts
+[I051]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_03.blp
+
+// Several Sapphire Fragments
+[I050]
+Art=war3mapImported\BTNSapphires.blp
+
+// Sapphire Refined Fragments
+[I04Z]
+Art=war3mapImported\BTNSapphires.blp
+
+// Sapphire Refined Particles
+[I04Y]
+Art=war3mapImported\BTNSapphires.blp
+
+// Sapphire Particles 
+[I04X]
+Art=war3mapImported\BTNSapphireparts.BLP
+
+// Gem Fragment 3
+[I04W]
+Art=ReplaceableTextures\CommandButtons\BTN3M3.blp
+
+// Gem Fragment 2
+[I04V]
+Art=ReplaceableTextures\CommandButtons\BTN3M2.blp
+
+// Gem Fragment
+[I04U]
+Art=ReplaceableTextures\CommandButtons\BTN3M1.blp
+
+// Katar
+[I04T]
+Art=war3mapImported\BTNKatarOne.blp
+Buttonpos=3,1
+
+// |cffff8c00Require |n-Katar|n-Assassin Lance|n-Killer Blade|r|n|n
+[I04S]
+Art=war3mapImported\BTNWeaponSword3.BLP
+
+// |cffff8c00Require |n-Inmortal  |n-Legendary Armorl|r|n|n
+[I04R]
+Art=war3mapImported\BTNRoyal Armor.blp
+
+// |cff7777aaAbsolute|r
+[I04Q]
+Art=war3mapImported\BTNRoyal Armor.blp
+
+// |cff7777aaAres Sword|r
+[I04P]
+Art=war3mapImported\BTNWeaponSword3.BLP
+
+// |cffff8c00Require |n-Lightly Sword|n-Basic Claws|r|n|n
+[I04O]
+Art=war3mapImported\BTNKatarOne.blp
+
+// |cffffcc00Scepter of Malevolence|r
+[I04N]
+Buttonpos=3,0
+Art=war3mapImported\BTN_CW_Magus_Staff.blp
+
+// Staff of Discharge
+[I04M]
+Buttonpos=1,0
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+
+// |cffff8c00Require |n-Talisman of the Wild|n-Warsong Battle Drums|r|n|n
+[I04L]
+Art=war3mapImported\BTNINV_Misc_Gem_Ruby_02.blp
+
+// |cffffcc00Sacred Gem of War|r
+[I04K]
+Art=war3mapImported\BTNINV_Misc_Gem_Ruby_02.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Deadly Spear|n-Assassin Blade (Assassin Dagger level2)|r|n|n
+[I04J]
+Art=war3mapImported\BTNNature Short Blade.blp
+
+// |cffffcc00Soul Cutter|r
+[I04I]
+Art=war3mapImported\BTNNature Short Blade.blp
+
+// |cffff8c00Require |n-Flute of Accuracy|n-Deadly Lance|n-Ring of Agility|r|n|n
+[I04H]
+Art=war3mapImported\BTNBlack Navaja.blp
+
+// |cffffcc00Tizona|r
+[I04G]
+Art=war3mapImported\BTNBlack Navaja.blp
+Buttonpos=0,1
+
+// |cffff8c00Require |n-Flag of Strength  |n-Ring of Strength|n-Talisman of the Wild|r|n|n
+[I04F]
+Art=war3mapImported\BTNHoly Stone.blp
+
+// |cffff8c00Require |n-Runed Bracers  |n-Ring of Agility|n-Simple Sword|r|n|n
+[I04E]
+Art=ReplaceableTextures\CommandButtons\BTNAlleriaFlute.blp
+
+// |cffff8c00Require |n-Runed Bracers  |n-Ring of Strength|n-Heavy Helm|r|n|n
+[I04D]
+Art=ReplaceableTextures\CommandButtons\BTNNightElfCaptureFlag.blp
+
+// |cffffcc00Gods Atom|r
+[I04C]
+Art=war3mapImported\BTNHoly Stone.blp
+Buttonpos=1,1
+
+// Flag of Strength
+[I04B]
+Art=ReplaceableTextures\CommandButtons\BTNNightElfCaptureFlag.blp
+Buttonpos=0,1
+
+// Flute of Accuracy
+[I04A]
+Art=ReplaceableTextures\CommandButtons\BTNAlleriaFlute.blp
+Buttonpos=1,1
+
+// Amulet of Protection
+[I049]
+Art=ReplaceableTextures\CommandButtons\BTNSpellShieldAmulet.blp
+Buttonpos=2,2
+
+// |cffffcc00Demonic Sword|r
+[I048]
+Art=war3mapImported\BTNSwordStrike.blp
+Buttonpos=0,1
+
+// |cffffcc00Soul Burn|r
+[I047]
+Art=war3mapImported\BTNMOBHolySpear.blp
+Buttonpos=1,0
+
+// S.Gold Coins
+[I046]
+Art=ReplaceableTextures\CommandButtons\BTNChestOfGold.blp
+
+// |cffff8c00Require |n-Circle of Nobility|n-Pendant of Mana|r
+[I045]
+Art=ReplaceableTextures\CommandButtons\BTNPipeOfInsight.blp
+
+// Pipe of Insight
+[I044]
+Art=ReplaceableTextures\CommandButtons\BTNPipeOfInsight.blp
+[I043]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+
+// |cffff8c00Require |n-Dragon Head|n-Dragon Claws|n-Dragon Scales|n-Dragon Blood|n-Champion Sword|r
+[I042]
+Art=war3mapImported\BTNDragonBlade.blp
+
+// |cffff0000Dragon Slayer|r|n
+[I041]
+Art=war3mapImported\BTNDragonBlade.blp
+
+// |cffff8c00Require |n-Gem of Hades   |n-Crystal ball
+[I040]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfSearinox.blp
+
+// |cff7777aaThe Heart of Searinox|r (lvl |cffffcc001|r)
+[I03Z]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfSearinox.blp
+
+// |cffff0000Dragon Claws|r
+[I03Y]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedCreatureAttack.blp
+
+// |cffffcc00Veteran Armor|r
+[I03X]
+Art=war3mapImported\BTNVeteran Armor.blp
+Buttonpos=1,0
+
+// Assassin Lance
+[I03W]
+Art=ReplaceableTextures\CommandButtons\BTNThoriumRanged.blp
+Buttonpos=1,1
+
+// Shimmerweed
+[I03V]
+Art=ReplaceableTextures\CommandButtons\BTNShimmerWeed.blp
+Buttonpos=1,0
+
+// Rusty Mining Pick
+[I03U]
+Art=ReplaceableTextures\CommandButtons\BTNGatherGold.blp
+Buttonpos=2,0
+[I03T]
+Art=ReplaceableTextures\CommandButtons\BTNGoldRing.blp
+Buttonpos=1,2
+
+// |cffff8c00Require |n-Circle of Nobility|n-Low Quality Armor|n-Leather Helm
+[I03S]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+
+// |cffff8c00Require |n-Boots of Speed|n-Crystal Ball|r|n|n
+[I03R]
+Art=war3mapImported\BTNHeavyBoots.blp
+
+// Warrior Boots
+[I03Q]
+Art=war3mapImported\BTNHeavyBoots.blp
+Buttonpos=2,1
+
+// |cffff8c00Require |n-Helm of Kings|n-Ring of Strength|n-Circle of nobility|r
+[I03P]
+Art=war3mapImported\BTNINV_Jewelry_Necklace_01.blp
+
+// Emerald (lvl |cffffcc001|r)
+[I03O]
+Art=war3mapImported\BTNINV_Jewelry_Necklace_01.blp
+
+// |cffff8c00Require |n-Ring of Intelligence|n-Giant Gauntlets
+[I03N]
+Art=ReplaceableTextures\CommandButtons\BTNNecklace.blp
+
+// Enchanted Necklace
+[I03M]
+Art=ReplaceableTextures\CommandButtons\BTNNecklace.blp
+Buttonpos=1,0
+
+// |cffff8c00Require |n-Deadly Spear|n-Plate Armor|n-Ring of Intelligence|r
+[I03L]
+Art=war3mapImported\BTNSoulTalisman.BLP
+
+// |cffffcc00Decapitator|r (lvl |cffffcc001|r)
+[I03K]
+Art=war3mapImported\BTNAxe of Terror.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Deadly Spear|n-Deadly Lance|n-Talisman of The Wild|r|n|n
+[I03J]
+Art=war3mapImported\BTNAxe of Terror.blp
+
+// Assassin Blade (lvl |cffffcc002|r)
+[I03I]
+Art=war3mapImported\BTNDagger.blp
+Buttonpos=1,0
+
+// |cffffcc00Talisman of The Spirit|r
+[I03H]
+Art=war3mapImported\BTNSoulTalisman.BLP
+Buttonpos=1,0
+
+// |cffff8c00Require |n-Deadly Lance|n-Simple Sword |r|n|n
+[I03G]
+Art=war3mapImported\BTNDagger.blp
+Buttonpos=0,2
+
+// Assassin Dagger (lvl |cffffcc001|r)
+[I03F]
+Art=war3mapImported\BTNDagger.blp
+
+// |cffff8c00Require |n-Boots of Speed|n-Shield of Wood |r|n|n
+[I03E]
+Art=war3mapImported\BTNWindsBoots.BLP
+
+// Wind Boots
+[I03D]
+Art=war3mapImported\BTNWindsBoots.BLP
+Buttonpos=2,0
+
+// |cffff0000Mugen|r (lvl |cffffcc002|r)
+[I03C]
+Art=war3mapImported\BTNkatana.blp
+Buttonpos=1,0
+
+// |cffffcc00The Last Ultima|r (lvl |cffffcc003|r)
+[I03B]
+Art=war3mapImported\BTNINV_Wand_06.blp
+Requires=
+Buttonpos=2,1
+
+// |cffffcc00Ultima|r (lvl |cffffcc002|r)
+[I03A]
+Art=war3mapImported\BTNINV_Wand_05.blp
+Requires=
+Buttonpos=1,1
+
+// Sonic Gloves 
+[I039]
+Art=ReplaceableTextures\CommandButtons\BTNSpellSteal.blp
+Buttonpos=3,0
+
+// |cffff8c00Require |n-Runed Gauntlets  |n-Gloves of Haste|r|n|n
+[I038]
+Art=ReplaceableTextures\CommandButtons\BTNSpellSteal.blp
+
+// Talisman of the Wild
+[I037]
+Buttonpos=3,1
+Requires=etoa
+Art=ReplaceableTextures\CommandButtons\BTNStone.blp
+
+// |cffff8c00Require |n-Simple Sword  |n-Crystal ball |n-Sturdy Axe|r
+[I036]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+[I035]
+Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Heavy Helm  |n-Medallion of Wizard
+[I034]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// Health Stone (lvl |cffffcc001|r)
+[I033]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+
+// cffff8c00Require |n-Glacial Staff  |n-Frost Sword|r|n|n
+[I032]
+Art=war3mapImported\BTNFrostSword.blp
+
+// |cffffcc00Glacial Sword|r
+[I031]
+Art=war3mapImported\BTNFrostSword.blp
+
+// |cffff8c00Require |n-Fire Staff  |n-Ring of Intelligence |n-Talisman of the Wildl|r|n|n
+[I030]
+Art=war3mapImported\BTNINV_Wand_05.blp
+Requires=hcas
+Buttonpos=3,1
+
+// |cffffcc00Ultima|r (lvl |cffffcc001|r)
+[I02Z]
+Art=war3mapImported\BTNINV_Wand_05.blp
+Requires=
+Buttonpos=0,1
+
+// |cffff8c00Require |n-Critical Axe |r|n|n
+[I02Y]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpThree.blp
+Buttonpos=2,1
+
+// Khadgar's Gem of the Energy
+[I02X]
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt1.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Sacred Shield|n-Ice Shield  |n-Crystal Ball|r|n|n
+[I02W]
+Art=war3mapImported\BTNShieldOfHope.blp
+
+// |cffff8c00Require |n-Helm of Kings  |n-Crystal Ball |n-Zombie Helm|r|n|n
+[I02V]
+Buttonpos=2,0
+Art=war3mapImported\BTNGoldHelmet.BLP
+
+// |cffff8c00Require |n-Large War Axe  |n-Deadly Spear |n-Ring of Strength|r|n|n
+[I02U]
+Art=war3mapImported\BTNINV_Axe_10.blp
+
+// |cffff8c00Require |n-Sonic Gloves   |n-Savage Axe|r|n|n
+[I02T]
+Art=war3mapImported\BTNUpgradeAxe3.BLP
+
+// |cffff8c00Require |n- Medallion of warlock|n- Medallion of Wizzard|n-Pendant of Mana |r|n|n
+[I02S]
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt1.blp
+
+// |cffffcc00Soul Edge|r
+[I02R]
+Art=war3mapImported\BTNUpgradeAxe3.BLP
+Buttonpos=2,0
+
+// |cffffcc00Ikki-Thousen|r
+[I02Q]
+Art=war3mapImported\BTNINV_Axe_10.blp
+Buttonpos=3,0
+
+// |cffffcc00Golden Helm|r
+[I02P]
+Buttonpos=0,1
+Art=war3mapImported\BTNGoldHelmet.BLP
+
+// |cff7777aaFinal Weapon|r
+[I02O]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfCorruption.blp
+
+// |CFF00FFFFHeart of Devil|r
+[I02N]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfAszune.blp
+
+// Dragon Blood
+[I02M]
+Art=ReplaceableTextures\CommandButtons\BTNPotionRed.blp
+
+// |cffff0000Dragon Wing|r
+[I02L]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNStoneForm.blp
+
+// |cffff0000Dragon Head|r|n
+[I02K]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNGreenDragon.blp
+
+// |cffff0000Dragon Scales|r
+[I02J]
+Buttonpos=0,0
+Art=ReplaceableTextures\CommandButtons\BTNNagaArmorUp2.blp
+
+// |cffffcc00Masamune|r
+[I02I]
+Art=war3mapImported\BTNImprovedSamuraiBlades.blp
+
+// |cffffcc00Divine Rune|r
+[I02H]
+Art=ReplaceableTextures\CommandButtons\BTNRune.blp
+Buttonpos=1,0
+
+// Killer Blade
+[I02G]
+Art=war3mapImported\BTNTideShamanRitualLance.blp
+Buttonpos=2,1
+
+// Spiked Carapace
+[I02F]
+Buttonpos=3,0
+Requires=
+Art=ReplaceableTextures\CommandButtons\BTNThornShield.blp
+
+// |cffffcc00Legendary Armor|r
+[I02E]
+Art=war3mapImported\BTNINV_Chest_Samurai.blp
+
+// Merlinis Cape
+[I02D]
+Buttonpos=0,2
+Requires=
+Art=war3mapImported\BTNINV_Misc_Cape_02.blp
+
+// Bloody Katana
+[I02C]
+Art=war3mapImported\BTNSword.blp
+Buttonpos=3,1
+
+// Choro Spear
+[I02B]
+Art=ReplaceableTextures\PassiveButtons\PASBTNEnvenomedSpear.blp
+Buttonpos=0,1
+
+// |cffffcc00UNBEATABLE|r
+[I02A]
+Art=war3mapImported\BTNShieldOfHope.blp
+Buttonpos=2,0
+
+// |cffff8c00Require |n-Hero Armor |n-Talisman of the Wild |n-Zombie Helm|r|n|n
+[I029]
+Art=war3mapImported\BTNINV_Chest_Plate16.blp
+
+// Require Warrior Armor , Sacred Shield ,Talisman of the Wild
+[I028]
+Art=war3mapImported\BTNINV_Chest_Chain_11.blp
+
+// |cffff8c00Require |n-Dark Staff  |n-Medalion of Warlock|r|n|n
+[I027]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfSanctuary.blp
+
+// |cffffcc00Inmortal|r
+[I026]
+Art=war3mapImported\BTNINV_Chest_Plate16.blp
+
+// Require Champion Sword,Deadly Spear and Sonic Gloves 
+[I025]
+Art=war3mapImported\BTNINV_Sword_25.blp
+
+// |cffffcc00Excalibur|r
+[I024]
+Art=war3mapImported\BTNINV_Sword_25.blp
+Buttonpos=1,0
+
+// Require Katana,Dual Sword and Acuarate Sword
+[I023]
+Art=war3mapImported\BTNkatana.blp
+
+// |cffffcc00Mugen|r (lvl |cffffcc001|r)
+[I022]
+Art=war3mapImported\BTNkatana.blp
+
+// |cffffcc00Arcane Scepter|r
+[I021]
+Art=ReplaceableTextures\CommandButtons\BTNScepterOfMastery.blp
+Requires=
+Buttonpos=0,0
+
+// |cffff8c00Require |n-Warlock Staff  |n-Medallion of Wizard |n-Medallion of Warlock|r|n|n
+[I020]
+Art=ReplaceableTextures\CommandButtons\BTNScepterOfMastery.blp
+Requires=hcas
+Buttonpos=0,0
+
+// |cffffcc00Divine Armor|r
+[I01Z]
+Art=war3mapImported\BTNINV_Chest_Chain_11.blp
+Buttonpos=1,0
+
+// Require Frost Staff and Ring of Intelligence
+[I01Y]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfNegation.blp
+
+// Require Leather Helm, Heavy Helm and Helm of kings
+[I01X]
+Buttonpos=2,0
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Glacial Staff
+[I01W]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfNegation.blp
+Requires=
+Buttonpos=0,0
+
+// Fire Staff
+[I01V]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfSanctuary.blp
+Requires=
+Buttonpos=1,0
+
+// Require Sturdy War Axe and Sturdy Axe
+[I01U]
+Art=war3mapImported\BTNUpgradeAxe2.BLP
+Buttonpos=1,1
+
+// Giant War Axe
+[I01T]
+Art=war3mapImported\BTNUpgradeAxe2.BLP
+Buttonpos=0,1
+
+// Require Sturdy War Axe and Circlet of Nobility
+[I01S]
+Art=war3mapImported\BTNINV_Axe_18.blp
+Buttonpos=0,1
+
+// Diabolic War Axe (lvl |cffffcc001|r)
+[I01R]
+Art=war3mapImported\BTNINV_Axe_18.blp
+
+// Cloak of Vampire Skin
+[I01Q]
+Art=ReplaceableTextures\CommandButtons\BTNCloak.blp
+Buttonpos=2,0
+
+// Savage Axe
+[I01P]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpThree.blp
+Buttonpos=0,1
+
+// Zombie Helm
+[I01O]
+Buttonpos=1,0
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+
+// Require Quality Armor and Leather Helm
+[I01N]
+Art=war3mapImported\BTNINV_Chest_Chain_17.blp
+
+// Warrior Armor
+[I01M]
+Art=war3mapImported\BTNINV_Chest_Chain_17.blp
+
+// Require Reforcer Armor 
+[I01L]
+Art=war3mapImported\BTNINV_Chest_Plate12.blp
+
+// Plate Armor 
+[I01K]
+Art=war3mapImported\BTNINV_Chest_Plate12.blp
+Buttonpos=1,0
+
+// Require Deadly lance
+[I01J]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteRanged.blp
+Buttonpos=1,2
+
+// Deadly Spear
+[I01I]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteRanged.blp
+Buttonpos=2,1
+
+// Require Shield of Iron and Basic Claws 
+[I01H]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpTwo.blp
+
+// Shield of Revenge
+[I01G]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpTwo.blp
+Buttonpos=3,0
+
+// |cffff8c00Require |n-War Hamer|r|n|n
+[I01F]
+Art=war3mapImported\BTNPaladin_Hammer.blp
+Buttonpos=3,1
+
+// Ancient Hammer 
+[I01E]
+Art=war3mapImported\BTNPaladin_Hammer.blp
+Buttonpos=1,1
+
+// Ice Shield
+[I01D]
+Art=ReplaceableTextures\CommandButtons\BTNLightningShield.blp
+Buttonpos=0,1
+
+// (Require Big Shield and Orb of Frost)
+[I01C]
+Art=ReplaceableTextures\CommandButtons\BTNLightningShield.blp
+
+// Katana
+[I01B]
+Art=war3mapImported\BTNSword.blp
+
+// Require Lightly Sword, Rune Gauntlets and Basic Claws
+[I01A]
+Art=war3mapImported\BTNSword.blp
+
+// |cffff8c00Require |n-Simple Sword  |n-Basic Claws|n-Mask of Death
+[I019]
+Art=war3mapImported\BTNCorruptedBlade.blp
+Buttonpos=2,0
+
+// Corrupted Sword
+[I018]
+Art=war3mapImported\BTNCorruptedBlade.blp
+Buttonpos=2,0
+
+// Frost Sword
+[I017]
+Art=ReplaceableTextures\CommandButtons\BTNThoriumMelee.blp
+Buttonpos=1,0
+
+// Require Simple Sword and Orb of Frost
+[I016]
+Art=ReplaceableTextures\CommandButtons\BTNThoriumMelee.blp
+Buttonpos=1,0
+
+// Dual Sword
+[I015]
+Art=war3mapImported\BTNINV_ThrowingKnife_04.blp
+Buttonpos=3,0
+
+// |cffff8c00Require |n-Accurate Sword  |n-Lightly Sword
+[I014]
+Art=war3mapImported\BTNINV_ThrowingKnife_04.blp
+Buttonpos=3,0
+
+// Wand of Wizard
+[I013]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfCyclone.blp
+Buttonpos=1,2
+
+// Gnoll Skin
+[I012]
+Art=ReplaceableTextures\CommandButtons\BTNGnollArcher.blp
+Buttonpos=3,0
+
+// Mage Armor
+[I011]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+Buttonpos=2,1
+[I010]
+Art=ReplaceableTextures\CommandButtons\BTNGrimWard.blp
+Buttonpos=3,1
+
+// Boots of Courage
+[I00Z]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsOtherLeg.blp
+Buttonpos=2,1
+
+// Scroll of Regeneration
+[I00Y]
+Art=ReplaceableTextures\CommandButtons\BTNScrollOfHealing.blp
+Buttonpos=3,0
+
+// Savage Claws
+[I00X]
+Art=ReplaceableTextures\CommandButtons\BTNShamanMaster.blp
+Buttonpos=2,0
+
+// Warlock Staff
+[I00W]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfSilence.blp
+
+// Vampire Fangs
+[I00V]
+Art=ReplaceableTextures\CommandButtons\BTNCannibalize.blp
+Buttonpos=1,1
+
+// Ring of Strength
+[I00U]
+Art=ReplaceableTextures\CommandButtons\BTNRingSkull.blp
+
+// Ring of Agility
+[I00T]
+Art=ReplaceableTextures\CommandButtons\BTNRingGreen.blp
+
+// Ring of Intelligence
+[I00S]
+Art=ReplaceableTextures\CommandButtons\BTNRingJadeFalcon.blp
+
+// Medallion of Warlock
+[I00R]
+Art=ReplaceableTextures\CommandButtons\BTNMedalionOfCourage.blp
+
+// Medallion of Wizard
+[I00Q]
+Buttonpos=1,0
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt.blp
+[I00P]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfEnergy.blp
+[I00O]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+
+// Dark Staff
+[I00N]
+Art=ReplaceableTextures\CommandButtons\BTNPriestAdept.blp
+
+// Lightning Staff
+[I00M]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfManaSteal.blp
+
+// Frost Staff
+[I00L]
+Art=ReplaceableTextures\CommandButtons\BTNBrilliance.blp
+
+// Artifact of Speed
+[I00K]
+Art=ReplaceableTextures\CommandButtons\BTNJanggo.blp
+
+// Heavy Helm
+[I00J]
+Art=ReplaceableTextures\CommandButtons\BTNArmorGolem.blp
+
+// Quality Armor
+[I00I]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeTwo.blp
+
+// Low Quality Armor
+[I00H]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeOne.blp
+
+// Reforcer Armor 
+[I00G]
+Art=ReplaceableTextures\CommandButtons\BTNMoonArmor.blp
+
+// Hero Armor
+[I00F]
+Art=war3mapImported\BTNRoyalArmor.blp.blp
+
+// Shield of Iron
+[I00E]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpOne.blp
+
+// Sacred Shield
+[I00D]
+Art=ReplaceableTextures\CommandButtons\BTNHumanArmorUpThree.blp
+
+// Big Shield
+[I00C]
+Art=ReplaceableTextures\CommandButtons\BTNThoriumArmor.blp
+
+// Shield of Wood
+[I00B]
+Art=ReplaceableTextures\CommandButtons\BTNSteelArmor.blp
+
+// Deadly Lance
+[I00A]
+Art=ReplaceableTextures\CommandButtons\BTNSteelRanged.blp
+
+// War Hammer
+[I009]
+Art=ReplaceableTextures\CommandButtons\BTNHammer.blp
+
+// Basic Claws 
+[I008]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+
+// Critical Axe
+[I007]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpTwo.blp
+
+// Large War Axe
+[I006]
+Art=ReplaceableTextures\CommandButtons\BTNSpiritWalkerMasterTraining.blp
+
+// Sturdy Axe
+[I005]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpOne.blp
+
+// Simple Sword
+[I004]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+
+// Accurate Sword
+[I003]
+Art=war3mapImported\BTNScimitar.blp
+
+// Lightly Sword
+[I002]
+Art=ReplaceableTextures\CommandButtons\BTNDaggerOfEscape.blp
+
+// Sturdy War Axe
+[I001]
+Art=ReplaceableTextures\CommandButtons\BTNSpiritWalkerAdeptTraining.blp
+
+// Champion Sword
+[I000]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteMelee.blp
+
+// |CFF0042FFBattle Trident|r (lvl |cffffcc003|r)
+[I0IB]
+Art=ReplaceableTextures\CommandButtons\BTNNagaWeaponUp2.blp
+Buttonpos=2,1
+
+// |cffffcc00Battle Trident|r (lvl |cffffcc002|r)
+[I0IC]
+Art=ReplaceableTextures\CommandButtons\BTNNagaWeaponUp1.blp
+Buttonpos=1,1
+
+// |CFF0042FFExodus|r (lvl |cffffcc002|r)
+[I0ID]
+Art=war3mapImported\BTN_NerubianScepter.blp
+Buttonpos=1,0
+
+// |cffff0000Dragonbane|r|n
+[I0IE]
+Art=war3mapImported\BTNDragonBlade.blp
+
+// |cffffcc00Titan War Axe|r
+[I0IF]
+Art=war3mapImported\BTNUpgradeAxe2.BLP
+Buttonpos=2,1
+
+// Enormous War Axe
+[I0IG]
+Art=war3mapImported\BTNUpgradeAxe2.BLP
+Buttonpos=1,1
+
+// |cffffcc00Diablo War Axe|r (lvl |cffffcc003|r)
+[I0IH]
+Art=war3mapImported\BTNINV_Axe_18.blp
+Buttonpos=2,0
+
+// Diabolo War Axe (lvl |cffffcc002|r)
+[I0II]
+Art=war3mapImported\BTNINV_Axe_18.blp
+Buttonpos=1,0
+
+// |CFF00FFFFDeath Wand|r
+[I0IL]
+Art=war3mapImported\BTNINV_Wand_06.blp
+Buttonpos=2,0
+
+// DCBD9
+[I0IM]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// |c00000000Riddle of Onyx|r
+[I0IO]
+Art=ReplaceableTextures\CommandButtons\BTNInfernalStone.blp
+
+// |CFF0042FFBlue Blessed Blade|r
+[I0IP]
+Art=war3mapImported\BTNTidebringer.blp
+
+// |CFF0042FFKan Staff|r
+[I0IQ]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorMaster.blp
+
+// |CFF0042FFChronos|r
+[I0IR]
+Buttonpos=3,1
+Art=war3mapImported\BTNWinged-Clock.blp
+
+// |cffffcc00Healer Stone|r
+[I0IS]
+Art=ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+Buttonpos=0,1
+
+// |cffffcc00Commander's Voice|r
+[I0IT]
+Art=war3mapImported\BTNCommandAura.BLP
+Buttonpos=1,1
+
+// Bounty Kill Dark Wizard or Black Dragon Hatchling
+[I0IU]
+Art=ReplaceableTextures\CommandButtons\BTNBanditMage.blp
+Buttonpos=1,0
+
+// Bounty Kill Wildking or Revenant
+[I0IV]
+Art=ReplaceableTextures\CommandButtons\BTNOwlBear.blp
+Buttonpos=2,0
+
+// Bounty Kill Makrura Tidal Lord or Dire Mammoth
+[I0IW]
+Art=ReplaceableTextures\CommandButtons\BTNLobstrokkBlue.blp
+
+// Cancel Bounty
+[I0IX]
+Art=ReplaceableTextures\CommandButtons\BTNCancel.blp
+Buttonpos=3,2
+
+// Bounty Kill Gaia Awakening or Murlock Overlord
+[I0IY]
+Art=ReplaceableTextures\CommandButtons\BTNJungleBeast.blp
+Buttonpos=3,0
+
+// Bounty Kill Pyromancer
+[I0IZ]
+Art=ReplaceableTextures\CommandButtons\BTNOrcWarlockRed.blp
+Buttonpos=0,1
+
+// Bounty Kill Vrykolaklaus
+[I0J0]
+Art=ReplaceableTextures\CommandButtons\BTNHeroDreadLord.blp
+Buttonpos=1,1
+
+// Bounty Kill Kel'Thuzad
+[I0J1]
+Art=ReplaceableTextures\CommandButtons\BTNGhostOfKelThuzad.blp
+Buttonpos=2,1
+
+// Bounty Kill Ninja
+[I0J2]
+Art=ReplaceableTextures\CommandButtons\BTNHeroBlademaster.blp
+Buttonpos=3,1
+
+// |cffffcc00Book of Power up|r
+[I0J3]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// |cff7777aaThe Flammard|r
+[I0J4]
+Art=war3mapImported\BTNdouble_edge.blp
+
+// |cff7777aaBelphegor's Circe Book|r
+[I0J5]
+Art=war3mapImported\BTNDemonology.blp
+
+// |cff7777aaBelphegor's Circe Book|r
+[I0J6]
+Art=war3mapImported\BTNDemonology.blp
+
+// Book
+[I0J7]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// Greater Book
+[I0J8]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+
+// +2 STR, -1 AGI, -1 INT
+[I0J9]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// +2 INT, -1 AGI, -1 STR
+[I0JA]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// +2 AGI, -1 STR, -1 INT
+[I0JB]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+
+// Claws of Gaia
+[I0JC]
+Art=ReplaceableTextures\CommandButtons\BTNJungleBeast.blp
+
+// Shield of Revenant
+[I0JD]
+Art=ReplaceableTextures\CommandButtons\BTNRevenant.blp
+
+// Horn of Minotaur
+[I0JE]
+Art=ReplaceableTextures\CommandButtons\BTNTauren.blp
+
+// Darkweaver's Club
+[I0JF]
+Art=ReplaceableTextures\CommandButtons\BTNUnbroken.blp
+
+// Helm of Skeletal King
+[I0JG]
+Art=ReplaceableTextures\CommandButtons\BTNSkeletalOrcChampion.blp
+
+// Komodo Tail
+[I0JH]
+Art=ReplaceableTextures\CommandButtons\BTNSnapDragon.blp
+
+// |CFF0042FFRunestone Greatsword|r
+[I0JI]
+Art=ReplaceableTextures\CommandButtons\BTNRunestoneGreatsword.blp
+
+// |c00000000Doombringer|r
+[I0JJ]
+Art=ReplaceableTextures\CommandButtons\BTNRaven_Sword.blp
+
+// |CFF00FFFFRunestone Armor|r
+[I0JK]
+Art=ReplaceableTextures\CommandButtons\BTN_cr_MarineArmor3.blp
+
+// |cffffcc00Improved Book of Strength|r
+[I0JL]
+Art=ReplaceableTextures\CommandButtons\BTNTomeRed.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |cffffcc00Improved Book of Agility|r
+[I0JM]
+Art=ReplaceableTextures\CommandButtons\BTNManual3.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |cffffcc00Improved Book of Intelligence|r
+[I0JN]
+Art=ReplaceableTextures\CommandButtons\BTNNecromancerAdept.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |CFF0042FFEncyclopedia of Intelligence|r
+[I0JO]
+Art=ReplaceableTextures\CommandButtons\BTNSorceressMaster.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |CFF20C000Encyclopedia of Agility|r
+[I0JP]
+Art=ReplaceableTextures\CommandButtons\BTNNecromancerMaster.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |cffff0000Encyclopedia of Strength|r
+[I0JQ]
+Art=ReplaceableTextures\CommandButtons\BTNTomeBrown.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |cffff8c00Improved Book Recipe|r
+[I0JR]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |cffff8c00Encyclopedia Recipe|r
+[I0JS]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Requires=hcas
+Buttonpos=1,2
+
+// |cffff8c00Rune Sword Recipe|r
+[I0JT]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Requires=hcas
+Buttonpos=1,2
+
+// Head of Traitor
+[I0JU]
+Art=ReplaceableTextures\CommandButtons\BTNArthas.blp
+
+// |cff7777aaRaven Sword|r
+[I0JV]
+Art=war3mapImported\BTNSpell_Holy_RetributionAura.blp
+
+// |cffff0000Muramasa|r
+[I0JW]
+Art=war3mapImported\BTNSharpBlades2.blp
+
+// Bounty Kill Spiders
+[I0JX]
+Art=ReplaceableTextures\CommandButtons\BTNSpiderBlue.blp
+
+// Bounty Progress
+[I0JY]
+Art=ReplaceableTextures\CommandButtons\BTNSelectHeroOn.blp
+Buttonpos=2,2
+
+// Bounty Kill Golems
+[I0JZ]
+Art=ReplaceableTextures\CommandButtons\BTNRockGolem.blp
+Buttonpos=1,0
+
+// Granite Token
+[I0K0]
+Art=ReplaceableTextures\CommandButtons\BTNRockGolem.blp
+Buttonpos=0,2
+
+// Bounty Kill Revenants
+[I0K1]
+Art=ReplaceableTextures\CommandButtons\BTNRevenant.blp
+Buttonpos=0,1
+
+// Bounty Kill 3 Gaia Awakening
+[I0K2]
+Art=ReplaceableTextures\CommandButtons\BTNJungleBeast.blp
+Buttonpos=3,0
+
+// Bounty Kill 7 Skeletal kings or Minotaurs
+[I0K3]
+Art=ReplaceableTextures\CommandButtons\BTNSkeletalOrc.blp
+Buttonpos=0,2
+
+// |cffffcc00Cursed Scroll|r
+[I0K4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollGreen.blp
+
+// Book of Damage
+[I0K5]
+Art=ReplaceableTextures\CommandButtons\BTNTome.blp
+Buttonpos=0,1
+
+// Time Manipulation
+[I0K6]
+Buttonpos=1,1
+Art=war3mapImported\BTNWinged-Clock.blp
+
+// |c00000000Death's Contract|r
+[I0K7]
+Art=war3mapImported\BTNDarkPact.blp
+
+// |CFF0042FFGod's Guard Shell|r
+[I0K8]
+Art=ReplaceableTextures\CommandButtons\BTNCOP.blp
+
+// |CFF0042FFMana Crystal|r
+[I0K9]
+Art=war3mapImported\BTNWandOfCosmicEnergy.blp
+
+// |cff7777aaTrue Raven Sword|r
+[I0KA]
+Art=war3mapImported\BTNSpell_Holy_RetributionAura.blp
+
+// |CFF20C000Demon King's Scimitar|r
+[I0KB]
+Art=war3mapImported\BTNFrostSword.blp
+
+// |CFF20C000Elite Hell Grimoire|r
+[I0KC]
+Art=ReplaceableTextures\CommandButtons\BTNBookOfTheDead.blp
+
+// |CFF20C000Figurine of Ultimatum|r
+[I0KD]
+Art=ReplaceableTextures\CommandButtons\BTNClayFigurine.blp
+
+// |CFF20C000Sacred Scimitar|r
+[I0KE]
+Art=war3mapImported\BTNSickle.blp
+
+// |CFF20C000Shining Moon Armor|r
+[I0KF]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedMoonArmor.blp
+
+// |CFF0042FFEloquence of Hermes|r
+[I0KG]
+Art=war3mapImported\BTNCRFrostShock.blp
+
+// Accessories Shop
+[I0KH]
+Art=ReplaceableTextures\CommandButtons\BTNWorkshop.blp
+
+// Mystic Shop
+[I0KI]
+Art=ReplaceableTextures\CommandButtons\BTNGryphonAviary.blp
+Buttonpos=1,0
+
+// Weapon Shop
+[I0KJ]
+Art=ReplaceableTextures\CommandButtons\BTNArcaneSanctum.blp
+Buttonpos=2,0
+
+// Armor Shop
+[I0KK]
+Art=ReplaceableTextures\CommandButtons\BTNArcaneVault.blp
+Buttonpos=3,0
+
+// Legendary Weapon Shop
+[I0KL]
+Art=ReplaceableTextures\CommandButtons\BTNAltarOfKings.blp
+Buttonpos=0,1
+
+// Legendary Armor Shop
+[I0KM]
+Art=ReplaceableTextures\CommandButtons\BTNAltarOfKings.blp
+Buttonpos=1,1
+
+// Legendary Mystic Shop
+[I0KN]
+Art=ReplaceableTextures\CommandButtons\BTNAltarOfKings.blp
+Buttonpos=2,1
+
+// Emerald
+[I0KQ]
+Art=war3mapImported\BTNINV_Jewelry_Necklace_01.blp
+
+// Assassin Dagger
+[I0KS]
+Art=war3mapImported\BTNDagger.blp
+Buttonpos=3,0
+
+// Diamond
+[I0KT]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedGemstone.blp
+Buttonpos=2,1
+
+// Special Shop
+[I0KU]
+Art=ReplaceableTextures\CommandButtons\BTNGraveyard.blp
+Buttonpos=3,1
+
+// Spirit Shield
+[I0KV]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp
+
+// Remove Armor
+[I0KW]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeOne.blp
+Buttonpos=0,1
+
+// Equip Armor +100
+[I0KX]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeTwo.blp
+
+// Equip Armor +500
+[I0KY]
+Art=ReplaceableTextures\CommandButtons\BTNMoonArmor.blp
+Buttonpos=1,0
+
+// Equip Armor +1000
+[I0KZ]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedMoonArmor.blp
+Buttonpos=2,0
+
+// Equip Armor +2000
+[I0L0]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedMoonArmor.blp
+Buttonpos=3,0
+
+// Magic Resistance 10%
+[I0L1]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+Buttonpos=0,2
+
+// Magic Resistance 25%
+[I0L2]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+Buttonpos=1,2
+
+// Magic Resistance 50%
+[I0L3]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+Buttonpos=2,2
+
+// Magic Resistance 70%
+[I0L4]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+Buttonpos=3,2
+
+// Remove Magic Resistance
+[I0L5]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+Buttonpos=1,1
+
+// Bounty Kill Crabs & Murlocs
+[I0L6]
+Art=ReplaceableTextures\CommandButtons\BTNSpinyCrab.blp
+Buttonpos=2,0
+
+// Crab Claw
+[I0L7]
+Art=war3mapImported\BTNLobsterCrabBounty.blp
+
+// |cffffcc00Hydra Hatching|r
+[I0L8]
+Art=ReplaceableTextures\CommandButtons\BTNGreenHydra.blp
+
+// Sapphire Gem Grinder
+[I0L9]
+Art=war3mapImported\BTNINV_Misc_Gem_Sapphire_02.blp
+Buttonpos=0,2
+
+// Starting Equipment
+[I0LA]
+Art=ReplaceableTextures\CommandButtons\BTNLeatherUpgradeOne.blp
+
+// Scroll of Binding
+[I0LB]
+Art=ReplaceableTextures\CommandButtons\BTNLesserRejuvScroll.blp
+
+// Scroll of Binding
+[I0LC]
+Art=ReplaceableTextures\CommandButtons\BTNLesserRejuvScroll.blp
+
+// Scroll of Demonic Texts
+[I0LD]
+Art=ReplaceableTextures\CommandButtons\BTNLesserRejuvScroll.blp
+
+// Christmas Gift
+[I0LF]
+Art=war3mapImported\BTNChristmasGiftFinal.blp
+Buttonpos=2,1
+
+// |c00000000Ancient Relic|r
+[I0KO]
+Art=war3mapImported\BTNRelicMedalion.blp
+
+// Champion Sword
+[I0KP]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteMelee.blp
+
+// |cffffcc00Excalibur|r
+[I0LE]
+Art=war3mapImported\BTNINV_Sword_25.blp
+Buttonpos=1,0
+
+// |cffff0000Dragon Slayer|r|n
+[I0LG]
+Art=war3mapImported\BTNDragonBlade.blp
+
+// |CFF00FFFFTerenas|r
+[I0LH]
+Art=ReplaceableTextures\CommandButtons\BTNUrnOfKelThuzad.blp
+
+// |CFF0042FFBlue Blessed Horn|r
+[I0LI]
+Art=war3mapImported\BTNSHorn.blp
+
+// Recharge
+[I0LJ]
+Art=war3mapImported\BTNStatic Blade.blp
+Buttonpos=1,2
+
+// Bounty Kill 10th Gaia Awakening
+[I0LK]
+Art=ReplaceableTextures\CommandButtons\BTNJungleBeast.blp
+Buttonpos=1,1
+
+// Hero Armor
+[I0LL]
+Art=war3mapImported\BTNRoyalArmor.blp.blp
+
+// |CFF00FFFFAncient Circe book|r
+[I0LM]
+Art=war3mapImported\BTNDemonology.blp
+
+// Reset Dummies
+[I0LN]
+Art=ReplaceableTextures\CommandButtons\BTNResistantSkin.blp
+Buttonpos=0,1
+
+// Present
+[I0D9]
+Art=ReplaceableTextures\CommandButtons\BTNSpellShieldAmulet.blp
+
+// Lump of Coal
+[I0DA]
+Art=war3mapImported\BTNStoneSmall.blp
+Buttonpos=1,1
+
+// |cffff8c00Require |n-Corrupted Sword  |n-Sonic Gloves|n-Mask of Death|r
+[I0DC]
+Art=war3mapImported\BTNCorruptedBlade.blp
+Buttonpos=2,0
+
+// |cffffcc00Leeching Sword|r
+[I0DD]
+Art=war3mapImported\BTNCorruptedBlade.blp
+Buttonpos=0,2
+
+// Worker's Tools
+[I0EQ]
+Art=ReplaceableTextures\CommandButtons\BTNGatherGold.blp
+
+// Building Supplies
+[I0IJ]
+Art=ReplaceableTextures\CommandButtons\BTNBundleOfLumber.blp
+
+// Spirit Crystal
+[I0IK]
+Art=ReplaceableTextures\CommandButtons\BTNEmberShard.blp
+
+// Soul Stone
+[I0IN]
+Art=ReplaceableTextures\CommandButtons\BTNGemStone.blp
+Buttonpos=1,1
+
+// Charged Soul Stone
+[I0LO]
+Art=ReplaceableTextures\CommandButtons\BTNGemStone.blp
+Buttonpos=1,1
+
+// |cffffcc00Scepter of Harborym|r
+[I0LP]
+Art=war3mapImported\BTNDarkLordsScepter.blp
+Requires=
+Buttonpos=0,0
+
+// |CFF00FFFFSphere of Ahriman|r
+[I0LQ]
+Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+
